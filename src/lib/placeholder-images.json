@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "featured-mystery",
+      "description": "A dark, foggy alleyway with a single streetlamp casting long shadows.",
+      "imageUrl": "https://images.unsplash.com/photo-1706874398303-b46f41061383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb2dneSUyMGFsbGV5fGVufDB8fHx8MTc2OTc3NDQ4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "foggy alley"
+    },
+    {
+      "id": "post-1",
+      "description": "An old, dusty book open on a wooden table, illuminated by candlelight.",
+      "imageUrl": "https://images.unsplash.com/photo-1519884705082-b505c3001e63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvbGQlMjBib29rfGVufDB8fHx8MTc2OTcxMjM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old book"
+    },
+    {
+      "id": "post-2",
+      "description": "A close-up of a vintage typewriter with a half-written page.",
+      "imageUrl": "https://images.unsplash.com/photo-1530819568329-97653eafbbfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2aW50YWdlJTIwdHlwZXdyaXRlcnxlbnwwfHx8fDE3Njk3MDM1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage typewriter"
+    },
+    {
+      "id": "post-3",
+      "description": "A silhouetted figure standing in a doorway, seen from a dark room.",
+      "imageUrl": "https://images.unsplash.com/photo-1645678845913-ba20063c8a37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaWxob3VldHRlJTIwZG9vcndheXxlbnwwfHx8fDE3Njk3MDExNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silhouette doorway"
+    }
+  ]
 }
