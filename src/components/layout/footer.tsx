@@ -9,6 +9,7 @@ export default function Footer() {
           &copy; {year} Shadow Scroll. All rights reserved.
         </p>
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+            <Link href="/blog" className="hover:text-foreground">Blog</Link>
             <Link href="/about" className="hover:text-foreground">About</Link>
             <Link href="/contact" className="hover:text-foreground">Contact</Link>
             <Link href="/privacy" className="hover:text-foreground">Privacy Policy</Link>
