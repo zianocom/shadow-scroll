@@ -111,12 +111,16 @@ export async function getArticles() {
 
 export async function getArticleBySlug(slug: string) {
   const article = articles.find((a) => a.slug === slug);
-  if (!article) return null;
+  if (!article) {
+    return null;
+  }
   return { ...article, ...getImageForArticle(article) };
 }
 
 export async function getFeaturedArticle() {
   const article = articles.find((a) => a.featured);
-  if (!article) return null;
+  if (!article) {
+    return null;
+  }
   return { ...article, ...getImageForArticle(article) };
 }
