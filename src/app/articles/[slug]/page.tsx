@@ -50,8 +50,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     notFound();
   }
 
-  const contentParagraphs = article.content.split('\n\n');
-
   return (
     <article>
       <header className="relative h-[40vh] md:h-[50vh] w-full">
@@ -77,11 +75,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </p>
           </div>
 
-          <div className="prose prose-invert prose-lg max-w-none mx-auto text-foreground/90 prose-p:mb-6 prose-headings:font-headline prose-headings:text-foreground prose-strong:text-foreground prose-a:text-accent hover:prose-a:text-accent/90">
-            {contentParagraphs.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
-          </div>
+          <div
+            className="prose prose-invert prose-lg max-w-none mx-auto text-foreground/90 prose-p:mb-6 prose-headings:font-headline prose-headings:text-foreground prose-strong:text-foreground prose-a:text-accent hover:prose-a:text-accent/90 prose-blockquote:border-accent prose-blockquote:text-accent-foreground/80"
+            dangerouslySetInnerHTML={{ __html: article.content }}
+          />
         </div>
       </div>
     </article>
