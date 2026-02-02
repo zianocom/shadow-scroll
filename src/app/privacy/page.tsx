@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Shadow Scroll',
-  description: 'Privacy Policy for Shadow Scroll.',
+  description: 'Privacy Policy for Shadow Scroll, outlining our data practices and use of cookies.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
         <h1 className="text-4xl md:text-5xl font-headline font-bold !leading-tight tracking-tight mb-4">
           Privacy Policy
         </h1>
-        <p className="text-muted-foreground text-lg">Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        <p className="text-muted-foreground text-lg">Last Updated: October 26, 2023</p>
       </header>
       <div className="prose prose-invert prose-lg max-w-none mx-auto text-foreground/90 prose-p:mb-6 prose-headings:font-headline prose-headings:text-foreground prose-a:text-accent hover:prose-a:text-accent/90">
         <p>
@@ -28,7 +28,6 @@ export default function PrivacyPolicyPage() {
         <h3>Definitions</h3>
         <p>For the purposes of this Privacy Policy:</p>
         <ul>
-            <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
             <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Shadow Scroll.</li>
             <li><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</li>
             <li><strong>Country</strong> refers to: United States</li>
@@ -42,28 +41,24 @@ export default function PrivacyPolicyPage() {
 
         <h2>Collecting and Using Your Personal Data</h2>
         <h3>Types of Data Collected</h3>
-        <h4>Personal Data</h4>
-        <p>
-          While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to: Usage Data.
-        </p>
         <h4>Usage Data</h4>
         <p>
           Usage Data is collected automatically when using the Service.
         </p>
         <p>
-          Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+          Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data. We do not actively collect personally identifiable information such as your name or email unless you voluntarily provide it through our contact channels.
         </p>
 
         <h2>Use of Your Personal Data</h2>
         <p>The Company may use Personal Data for the following purposes:</p>
         <ul>
             <li><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</li>
-            <li><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</li>
-            <li><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</li>
+            <li><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, and to evaluate and improve our Service, content, and your experience.</li>
         </ul>
         
-        <h2>Third-Party Advertising</h2>
-        <p>We may use third-party Service Providers to show advertisements to You to help support and maintain Our Service. Google AdSense as a third party vendor uses cookies to serve ads on our Service.</p>
+        <h2>Advertising and Cookies</h2>
+        <p>We may use third-party Service Providers, such as Google AdSense, to show advertisements to You to help support and maintain Our Service. These third parties may use cookies or similar tracking technologies to collect and use information about your activity on our Services and across other websites and online services over time to serve you interest-based advertisements.</p>
+        <p>Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google's Ads Settings</a>.</p>
 
         <h2>Links to Other Websites</h2>
         <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>

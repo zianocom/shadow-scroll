@@ -16,13 +16,13 @@ export default function ContactPage() {
       </header>
       <div className="prose prose-invert prose-lg max-w-none mx-auto text-foreground/90 text-center">
         <p>
-          Have a question, a comment, or a chilling story idea of your own? We welcome your correspondence. For all inquiries, please reach out to us via email.
+          Have a question, a comment, or a chilling story idea of your own? We welcome all correspondence from our readers. For any inquiries, please don't hesitate to reach out to us via email.
         </p>
         <p>
           You can email us at: <a href="mailto:contact@shadowscroll.com" className="text-accent hover:text-accent/90">contact@shadowscroll.com</a>
         </p>
         <p>
-          We do our best to respond to all messages, but please be patient as we may be lost in another mystery.
+          We do our best to respond to all messages, but please be patient as we may be lost in another mystery. Your feedback is invaluable to us.
         </p>
       </div>
     </div>

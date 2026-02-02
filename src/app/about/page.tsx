@@ -15,10 +15,10 @@ export default function AboutPage() {
       </header>
       <div className="prose prose-invert prose-lg max-w-none mx-auto text-foreground/90 prose-p:mb-6 prose-headings:font-headline prose-headings:text-foreground">
         <p>
-          Welcome to Shadow Scroll, your portal into the world of mystery and suspense. We are passionate storytellers dedicated to crafting tales that send a shiver down your spine and keep you guessing until the very end.
+          Welcome to Shadow Scroll, your portal into the world of mystery and suspense. We are a team of passionate storytellers dedicated to crafting tales that send a shiver down your spine and keep you guessing until the very end.
         </p>
         <p>
-          Our blog was born from a love for classic film noir, gothic horror, and mind-bending psychological thrillers. We believe that a good mystery is more than just a puzzle; it's an immersive experience. Here, we strive to create that experience through "cinematic storytelling"—writing that is vivid, atmospheric, and emotionally resonant.
+          Our blog was born from a love for classic film noir, gothic horror, and mind-bending psychological thrillers. We believe that a good mystery is more than just a puzzle; it's an immersive experience. Here, we strive to create that experience through "cinematic storytelling"—writing that is vivid, atmospheric, and emotionally resonant, created through a unique collaboration between human creativity and artificial intelligence.
         </p>
         <p>
           Each story is a carefully woven tapestry of intrigue, exploring the darker corners of the human psyche and the unsettling secrets that lie just beneath the surface of the ordinary. From fog-laden Victorian streets to the uncanny silence of a derelict spaceship, our settings are as much a character as the detectives and victims themselves.

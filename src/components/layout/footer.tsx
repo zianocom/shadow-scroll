@@ -5,9 +5,10 @@ export default function Footer() {
   return (
     <footer className="border-t border-border mt-auto">
       <div className="container mx-auto flex flex-col md:flex-row h-auto md:h-20 items-center justify-between px-4 md:px-6 py-4 md:py-0 gap-4">
-        <p className="text-sm text-muted-foreground text-center md:text-left">
-          &copy; {year} Shadow Scroll. All rights reserved.
-        </p>
+        <div className="text-sm text-muted-foreground text-center md:text-left">
+          <p>&copy; {year} Shadow Scroll. All rights reserved.</p>
+          <p className="text-xs">Some content is created in collaboration with AI.</p>
+        </div>
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
             <Link href="/blog" className="hover:text-foreground">Blog</Link>
             <Link href="/about" className="hover:text-foreground">About</Link>
