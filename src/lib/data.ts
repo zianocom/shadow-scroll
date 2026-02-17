@@ -1,4 +1,3 @@
-
 import { PlaceHolderImages, type ImagePlaceholder } from './placeholder-images';
 
 export type Article = {
