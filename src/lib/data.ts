@@ -236,7 +236,7 @@ const articles: Article[] = [
     excerpt: `An unidentified man is found dead on an Australian beach in 1948. In his pocket is a scrap of paper with two words: "Tamám Shud"—It is finished. An unbreakable code and a possible Cold War spy connection make this a perfect mystery.`,
     content: `
       <div class="article-tag">Based on Real Events</div>
-      <p>On December 1, 1948, a sharply dressed, unidentified man was found dead on Somerton beach in Australia. All labels had been cut from his clothes, and his identity remains unknown to this day. The case's enduring mystery stems from two clues: a coded message, and a scrap of paper in a hidden pocket bearing the Persian phrase "Tamám Shud"—"It is finished." Who was the Somerton Man, and was he a spy, a spurned lover, or something else entirely?</p>
+      <p>On December 1, 1948, a sharply dressed, unidentified man was found dead on Somerton beach in Australia. His identity remains unknown to this day. The case's enduring mystery stems from two clues: a coded message, and a scrap of paper in a hidden pocket bearing the Persian phrase "Tamám Shud"—"It is finished." Who was the Somerton Man, and was he a spy, a spurned lover, or something else entirely?</p>
       
       <h2>1. The Unknown Man</h2>
       <p>The man was in peak physical condition. The autopsy found no foreign substances in his body, yet concluded he died of heart failure, likely from an untraceable poison. His dental records and fingerprints matched no living person on record. With no ID and all clothing labels removed, police were at a dead end. Months later, a pathologist re-examining the man's trousers found a tiny, hidden fob pocket containing a tightly rolled scrap of paper. The paper contained the printed words "Tamám Shud."</p>
@@ -415,7 +415,7 @@ const getImageForArticle = (article: Article) => {
   return {
     imageUrl: image?.imageUrl ?? "https://picsum.photos/seed/placeholder/600/400",
     imageHint: image?.imageHint ?? "placeholder",
-    description: image?.description ?? "placeholder image"
+    imageDescription: image?.description ?? "placeholder image"
   }
 }
 
