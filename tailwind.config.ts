@@ -17,7 +17,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Noto Serif KR', 'serif'],
+        body: ['Lora', 'serif'],
         headline: ['Playfair Display', 'serif'],
         code: ['monospace'],
       },
