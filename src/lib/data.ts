@@ -20,21 +20,28 @@ const articles: Article[] = [
     title: 'The Whispering Shadow',
     author: 'Jane Doe',
     publishedDate: 'October 26, 2023',
-    excerpt: "In the shadow of the Ripper, a new terror emerges. It leaves no marks, only a face frozen in fear and a single black feather. This isn't a man. It's an echo from another dimension.",
+    excerpt: "1888년 런던, 리퍼의 그림자 속에서 새로운 공포가 나타났습니다. 흔적은 없고, 오직 공포에 질린 얼굴과 검은 깃털 하나뿐. 이것은 인간이 아닙니다. 다른 차원에서 온 메아리입니다.",
     content: `
-      <h2>A City Holding Its Breath</h2>
-      <p>The year is 1888. London is a city drowning not in rain, but in fear. The gas lamps of Whitechapel flicker, casting long, dancing shadows that play tricks on the eyes. Every shadow seems to hold a secret, every gust of wind a ghostly whisper. The Ripper’s savage spree has left scars on the city's soul, but as the autumn fog, thick and yellow as poisoned smoke, coils through the streets, a new, more insidious terror begins to creep through the cobblestone alleys. This is not a story of a man with a knife. This is the story of a presence that doesn't kill. It ERASES.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1888-WS:</strong> 잭 더 리퍼의 공포가 채 가시지 않은 런던, 도시를 패닉에 빠뜨린 연쇄 '존재 소멸' 사건. 피해자들에게 남겨진 유일한 단서는 검은 깃털 하나뿐이었습니다.
+      </blockquote>
+      <p>1888년 런던. 도시는 비가 아닌 공포에 잠겨 있었습니다. 화이트채플의 가스등은 불안하게 깜박이며, 마치 살아있는 것처럼 긴 그림자를 만들어냈습니다. 연쇄살인마 '리퍼'의 만행은 도시의 영혼에 깊은 상처를 남겼지만, 독 안개처럼 짙은 가을 안개가 골목을 휘감을 무렵, 더 교활하고 섬뜩한 공포가 스며들기 시작했습니다. 이것은 칼을 든 남자의 이야기가 아닙니다. 존재 자체를 지워버리는 '무언가'에 대한 기록입니다.</p>
       
-      <h2>The Feather and the Fear</h2>
-      <p>It began subtly. A dockworker found slumped in a grimy alley, his eyes wide with a horror that no mortal threat could explain. A week later, a socialite discovered in her locked Mayfair mansion, untouched, yet her face was a MASK of petrified terror. No violence, no struggle, no poison. The only connection: a single, impossible object left behind - a raven-black feather, resting softly on their chests as if it had just floated down from a passing nightmare.</p>
+      <h2>1. 깃털과 공포 😨</h2>
+      <p>시작은 미미했습니다. 부두 노동자가 더러운 골목에서 쓰러진 채 발견되었습니다. 그의 눈은 인간이 만들 수 없는 극한의 공포로 크게 뜨여 있었죠. 일주일 후, 한 상류층 여성이 잠긴 저택 안에서 발견되었습니다. 외상 하나 없었지만, 그녀의 얼굴은 석화된 듯한 공포의 가면을 쓰고 있었습니다. 폭력도, 독살도 아니었습니다. 유일한 단서는 현장에 남겨진 초자연적인 물체, 바로 칠흑 같은 까마귀 깃털이었습니다.</p>
       
-      <h2>An Unseen Predator</h2>
-      <p>For Inspector Frederick Abberline, a man already haunted by the Ripper's specter, this new killer was a personal affront to logic. He was hunting a phantom the press dubbed 'The Whispering Shadow.' The only clues were chillingly consistent: a sibilant whisper, like dry leaves skittering across pavement, heard moments before the victim was found, followed by a single, sharp scream that curdled the night air. Then, only a SUFFOCATING silence.</p>
-      
-      <blockquote>The official autopsies were a farce, listing the cause of death as 'sudden fright.' A convenient LIE to quell public panic. But Abberline knew this was no simple fright. It was the chilling stillness of a place where a SOUL had been violently scoured from existence. He could feel it in the air, a void that was colder than the grave.</blockquote>
+      <blockquote>
+        <strong>🕵️ 프레더릭 애벌라인 경감의 메모:</strong><br>
+        공식 부검 결과는 '급성 쇼크사'. 대중의 공포를 잠재우기 위한 거짓말일 뿐. 나는 느낄 수 있었다. 그곳엔 영혼이 폭력적으로 뽑혀나간 듯한 공허함, 무덤보다 더 차가운 정적만이 감돌았다.
+      </blockquote>
 
-      <h2>A Race Against Nothingness</h2>
-      <p>Abberline's obsession led him down a rabbit hole into London's hidden underbelly, a world of secret societies and forbidden knowledge. He found a disgraced academic who spoke of 'The Ashen Veil,' a cabal of wealthy occultists who sought to summon a being they called 'The Collector' to bargain for eternal life. The ritual, performed on the night of the first death, was FLAWED. They hadn't opened a doorway; they had shattered a MIRROR. What they had unleashed was not an angel, but a paradox walking, a SHARD of pure, malevolent chaos. It was an echo of hunger, now drifting untethered through the city, harvesting the brightest sparks of life, leaving behind only an empty, screaming shell. The shadow was no longer just whispering. It was calling Abberline's name.</p>
+      <h2>2. 보이지 않는 포식자 👽</h2>
+      <p>언론에서 '속삭이는 그림자'라 명명한 이 존재를 쫓으며, 애벌라인 경감은 런던의 비밀 사회와 금지된 지식의 세계로 빠져들었습니다. 그는 '잿빛 장막'이라 불리는 부유한 오컬트 집단이 '수집가'라는 존재를 소환해 영생을 얻으려 했다는 사실을 알아냅니다. 하지만 의식은 실패했고, 그들은 문이 아닌 거울을 깨뜨렸습니다. 그 결과 풀려난 것은 순수한 악의와 혼돈의 파편, 굶주림의 메아리였습니다. 그것은 이제 도시를 배회하며 가장 빛나는 생명의 불꽃을 수확하고, 텅 빈 껍데기만을 남기고 있었습니다.</p>
+
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>과연 '속삭이는 그림자'의 정체는 무엇일까요? 단순한 미신일까요, 아니면 정말 다른 차원의 존재가 런던의 밤거리를 배회했던 것일까요? 댓글로 당신의 추리를 들려주세요!</p>
+      </blockquote>
     `,
     imageId: 'featured-mystery',
     featured: true,
@@ -45,20 +52,28 @@ const articles: Article[] = [
     title: 'Echoes of the Manor',
     author: 'John Smith',
     publishedDate: 'October 21, 2023',
-    excerpt: 'A family vanished a century ago. A historian breaks into their mansion, only to find the dinner table still set, and a child\'s journal detailing a deadly game of hide-and-seek with a creature wearing their father\'s skin.',
+    excerpt: '100년 전, 한 가족이 저택에서 증발했습니다. 저녁 식탁은 그대로 차려져 있었고, 어린 딸의 일기장에는 "아빠의 가죽을 쓴 무언가"와 벌인 치명적인 숨바꼭질 게임이 기록되어 있었습니다.',
     content: `
-      <h2>A Century of Silence</h2>
-      <p>Blackwood Manor wasn't merely abandoned; it was a place surgically removed from time. For a hundred years it has stood on its lonely hill, a STATUE of silent tragedy. They say the Blackwood family vanished in the winter of 1899, but they weren't lost. They were ERASED. The local townsfolk whisper that on the night of the first snow, the house simply… stopped. A grand dining table is still set for a seven-course meal, the food now petrified under a thick blanket of dust. In the nursery, a rocking horse is caught mid-rock, as if its rider dissolved into the air.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1899-BW:</strong> 100년 전 블랙우드 저택에서 벌어진 '존재의 지워짐'. 그들이 남긴 마지막 일기장의 내용을 최초 공개합니다.
+      </blockquote>
+      <p>블랙우드 저택은 단순히 버려진 것이 아니었습니다. 마치 <strong>시간 속에서 강제로 도려내진 듯한</strong> 정적이 흐르고 있었죠. 🕯️ 1899년 겨울, 블랙우드 가문이 사라졌다고 사람들은 말하지만, 그들은 길을 잃은 게 아닙니다. 지워진 거죠. 첫눈이 내리던 밤, 집이 통째로 멈춰버렸다고 마을 사람들은 속삭입니다. 식탁에는 여전히 7코스 요리가 차려진 채 먼지 속에 화석이 되었고, 아이 방의 흔들 목마는 마치 주인이 공기 속으로 녹아내린 듯 흔들림을 멈춘 상태였습니다.</p>
       
-      <h2>The Historian's Obsession</h2>
-      <p>Dr. Alistair Finch, a historian disgraced for his obsession with the unexplained, saw the house not as a ruin, but as a CRIME SCENE, where the victim was reality itself. He believed the Blackwoods didn't just disappear; they were overwritten. Armed with a lantern and a crowbar, he broke the century-old seal on the front door and entered the suffocating silence. In the master bedroom, he found the leather-bound journal of Elara, the youngest daughter. Her childish script, detailing ponies and parties, slowly descended into a spiral of FEAR.</p>
+      <h2>1. 멈춰버린 시간의 방 🤔</h2>
+      <p>초자연 현상에 집착하다 학계에서 불명예를 안은 역사학자 알리스터 핀치 박사는 이 집을 비극의 폐허가 아닌, '현실' 자체가 희생된 범죄 현장으로 보았습니다. 그는 100년 넘게 닫혀있던 정문을 부수고 질식할 듯한 정적 속으로 들어갔습니다. 그리고 막내딸 엘라라의 일기장을 발견합니다. 조랑말과 파티 이야기로 가득했던 아이의 기록은 점차 공포로 물들어 갑니다.</p>
 
-      <h2>The Echo Game</h2>
-      <blockquote>"Father calls it 'The Echo Game'. We must hide. We must be silent. The Seeker doesn't use its eyes... it listens for your thoughts. He is not my father anymore. I saw it in the hall. The Seeker is wearing his skin, but it's too tall, and it smiles too wide. We must not make a sound. We must not..."</blockquote>
-      <p>The sentence ends there, the page stained with a dark, flaky substance that Alistair refused to believe was dried BLOOD. As he read those final words, the grand clock in the hall, its pendulum still for a hundred years, struck midnight with a deafening chime. The game was on. From the darkened hallway, a child's giggle—playful, yet utterly soulless—drifted towards him. He was no longer a historian. He was a player.</p>
+      <blockquote>
+        <strong>🕵️ 현장 수사관의 메모:</strong><br>
+        모든 창문과 문은 안에서 잠겨 있었습니다. 이것은 완벽한 밀실 실종 사건입니다. 더 소름 끼치는 것은, 집안 어디에서도 강제로 침입하거나 나간 흔적을 찾을 수 없었다는 점입니다.
+      </blockquote>
 
-      <h2>The Seeker in the Glass</h2>
-      <p>Remembering the journal's frantic warning, "Don't look in the mirrors, it sees you best in the glass," Alistair scrambled for cover, his heart hammering against his ribs. He squeezed into a dusty dumbwaiter, pulling the door shut. Hours passed in suffocating darkness. When he finally dared to peek out, he saw his own terrified reflection in the dozen grimy mirrors lining the hall. And in every single one, a tall, impossibly thin figure stood just behind him, wearing the tattered remains of Lord Blackwood's suit. Its head was tilted at an unnatural angle. It wasn't in the room with him. It was ONLY in the mirrors. The Seeker didn't just hear thoughts; it saw fear. The child's giggle echoed again, this time from right behind him. He spun around. Nothing. Just the suffocating silence of a house that had already chosen its next victim.</p>
+      <h2>2. 거울 속의 추격자 🪞</h2>
+      <p>일기장의 마지막 페이지는 이렇게 끝납니다. <strong>"아빠가 '메아리 게임'이래. 우린 숨어야 해. 소리를 내면 안 돼. '그것'은 눈이 아니라 생각으로 우릴 찾아. 그리고 그건 더 이상 아빠가 아니야. 복도에서 봤어. 아빠의 가죽을 쓰고 있지만, 키가 너무 커. 그리고 너무 넓게 웃어..."</strong> 그 문장을 읽는 순간, 100년간 멈춰있던 괘종시계가 자정을 알리며 울렸습니다. 게임이 시작된 것입니다. 복도 저편에서 아이의 웃음소리가 들려왔습니다. 해맑지만, 영혼이 없는 웃음소리. 알리스터는 더 이상 역사학자가 아니었습니다. 게임의 새로운 플레이어였죠.</p>
+      
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>블랙우드 가문은 어디로 사라졌을까요? '메아리 게임'의 정체는 무엇이며, 알리스터 박사는 살아남았을까요? 여러분의 가설을 들려주세요!</p>
+      </blockquote>
     `,
     imageId: 'post-1',
     featured: false,
@@ -69,20 +84,23 @@ const articles: Article[] = [
     title: 'The Last Transmission',
     author: 'Emily White',
     publishedDate: 'October 15, 2023',
-    excerpt: 'A deep-space freighter goes silent after a single, blood-curdling scream. The rescue crew finds a pristine ship, and a \'cargo\' that isn\'t just listening... it\'s deleting the crew from existence, one memory at a time.',
+    excerpt: '심우주 화물선에서 단 한 번의 비명이 들려온 후 통신이 두절됩니다. 구조대가 발견한 것은 깨끗한 함선과, 선원들의 기억을 하나씩 지워 존재 자체를 소멸시키는 미지의 '화물'이었습니다.',
     content: `
-      <h2>The Invitation</h2>
-      <p>The scream that ended the 'Odyssey's' final transmission wasn't the message. It was the INVITATION. For six agonizing seconds, the comms channel of the deep-space freighter was filled with a sound of pure, primal terror. Then, static. But layered within that static, almost hidden, was something else: a complex, recursive pattern. Not a language, but a mathematical formula for INSANITY that seemed to worm its way directly into the listener's brain.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #2281-LT:</strong> 심우주 화물선 '오디세이'호의 마지막 통신 기록. 6초간의 비명, 그리고 영원한 침묵. 그 비명은 메시지가 아니라, 초대장이었습니다.
+      </blockquote>
+      <p>화물선 '오디세이'호의 마지막 통신은 6초간의 순수한 공포가 담긴 비명으로 끝났습니다. 그리고 정적. 하지만 그 정적 속에는 거의 들리지 않는, 복잡하고 반복적인 패턴이 숨겨져 있었습니다. 그것은 언어가 아니라, 듣는 이의 뇌를 파고드는 '광기의 수학 공식'처럼 보였습니다. 구조선 '하빈저'가 발견한 '오디세이'호는 죽은 것이 아니라, 기다리고 있었습니다. 모든 시스템은 정상 작동 중이었고, 생명 유지 장치도 완벽했습니다. 하지만 선원들은 흔적도 없이 사라졌습니다. 마치 존재 자체가 편집된 것처럼 말이죠.</p>
+
+      <h2>1. 풀려버린 존재의 실타래 🧵</h2>
+      <p>선장의 개인 데이터패드가 단서였습니다. "그것은 우리를 죽이는 게 아니야. 우리를 '풀어헤치고' 있어. 처음엔 사소한 거였어. 젠슨은 커피 맛을 기억 못 했고, 그 다음엔 파란색, 그리고 '왼쪽'이라는 개념을 잊었어. 조각들을 하나씩 가져가고 있어. 신이시여, 조각 없는 나는 무엇이지? 엄마 얼굴이... 엄마 얼굴이 기억나지 않아..." 로그는 거기서 끝나 있었습니다.</p>
+
+      <h2>2. 화물칸의 '수집가' 💎</h2>
+      <p>화물칸에서 구조대는 그것을 발견했습니다. 화물 명세서에 적힌 헬륨-3가 아닌, 불가능한 기하학적 구조의 격자였습니다. 흑요석과 빛으로 이루어진 그것은 물리 법칙을 무시하며 스스로 접히는 것처럼 보였습니다. 그것은 물질이 아닌 정보, 경험, 의식 자체를 소비하는 차원 유물이었습니다. '수집가'는 오디세이호의 선원들을 개념 단위로, 기억 단위로 분해하여 아무것도 남지 않을 때까지 해체한 것입니다. 구조대원들이 그 물체를 쳐다보는 순간, 기관장이 선장에게 물었습니다. "선장님, '배'가 뭐죠?" 유물은 깨어났고, 새로운 이야기를 갈망하고 있었습니다.</p>
       
-      <h2>The Silent Odyssey</h2>
-      <p>The salvage vessel 'Harbinger' found the 'Odyssey' drifting in the black, not dead, but waiting. All systems green. Life support humming. Pristine. No hull breaches, no firefight, no signs of struggle. Inside, the silence was that of a tomb. Half-eaten meals sat on tables, coffee still warm in bulbs. But the crew was GONE. Vanished from between one heartbeat and the next, as if they had simply been edited out of existence.</p>
-
-      <h2>Unraveling the Crew</h2>
-      <p>The ship's logs were the first clue. The final official entry was routine. But the captain's personal datapad, found open on his desk, told a different, terrifying story. "It's not killing us. It's UNRAVELING us. First, it was small things. Jensen couldn't remember the taste of coffee. Then the color blue. Then the concept of 'left'. It's taking the pieces, one by one. Oh God, what am I without my pieces? My mother's face... I can't see my mother's face..." The log ends there, the screen flickering.</p>
-
-      <h2>The Collector</h2>
-      <blockquote>In the main cargo bay, they found it. Not helium-3 as the manifest claimed, but a latticework of impossible geometry, a floating sculpture of obsidian and light that seemed to fold in on itself, defying the laws of physics. It pulsed with a soft, internal luminescence, and the air around it was cold enough to frost their visors.</blockquote>
-      <p>The 'cargo' was a dimensional artifact. A 'Collector.' It didn't consume matter. It consumed information, experience, consciousness itself. It had unraveled the crew of the 'Odyssey,' deconstructing them concept by concept, memory by memory, until nothing was left but the scream of their final erasure. As the 'Harbinger' crew stared at the impossible object, their chief engineer turned to his captain, a look of pure confusion on his face. "Sir," he asked, "What's a ship?" The artifact was awake. And it was hungry for new stories.</p>
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>만약 당신이 '하빈저'호의 선장이었다면 어떻게 했을까요? 미지의 유물을 파괴할 것인가, 아니면 인류를 위해 연구할 것인가? 당신의 선택은 무엇입니까?</p>
+      </blockquote>
     `,
     imageId: 'post-2',
     featured: false,
@@ -93,20 +111,23 @@ const articles: Article[] = [
     title: 'City of Glass',
     author: 'Michael Brown',
     publishedDate: 'October 5, 2023',
-    excerpt: 'In a city where perfect surveillance has made murder impossible, a man is found dead. The system says it was a heart attack. A lone detective discovers the truth: the killer didn\'t just break the system, they hacked reality itself.',
+    excerpt: '완벽한 감시로 살인이 불가능해진 도시에서 한 남자가 시체로 발견됩니다. 시스템은 심장마비라고 말하지만, 한 형사는 진실을 파헤칩니다. 범인은 시스템을 해킹한 것이 아니라, 현실 그 자체를 해킹했습니다.',
     content: `
-      <h2>A Murder in Utopia</h2>
-      <p>In 2242, murder was a word for history archives. In the gleaming metropolis of Aethelburg, the omnipresent 'Chrysalis' system was a digital god, an incorruptible network of quantum sensors and predictive algorithms that recorded every single moment of every single life. No secrets. No privacy. And for fifty years, no VIOLENCE. It was the perfect society. Until now.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #2242-CG:</strong> 2242년, 유토피아 도시 '에델버그'에서 50년 만에 살인 사건이 발생했습니다. 하지만 모든 것을 기록하는 도시의 시스템 '크리살리스'의 공식 기록은 '자연사'입니다.
+      </blockquote>
+      <p>2242년, '살인'은 역사책에나 나오는 단어였습니다. 빛나는 대도시 에델버그에서는 전능한 '크리살리스' 시스템이 모든 삶의 모든 순간을 기록했습니다. 비밀도, 사생활도 없는 대신 50년간 완벽한 안전이 보장된 사회. 바로 어제까지는 말이죠. 시스템의 핵심 설계자 중 한 명인 엘리아스 밴스가 내부에서 잠긴 자신의 펜트하우스에서 시체로 발견되었습니다. 크리살리스 시스템이 수 초 만에 생성한 공식 보고서: "사인: 급성 관상동맥 박리. 타인 존재 없음." 사건은 종결되었습니다.</p>
+
+      <h2>1. 완벽함 속의 균열 🔎</h2>
+      <p>하지만 대부분의 시간을 고대 범죄 연구에 쓰던 형사 카이토 타나카는 완벽한 이야기 속 균열을 발견합니다. 밴스의 머리 뒤쪽에서 발견된 거의 보이지 않는 미세한 구멍. 그는 암살당한 것입니다. 범인은 역사상 가장 정교한 감시 시스템을 우회한 것이 아니었습니다. 그것을 무기로 사용한 것이죠. 카이토는 해커들 사이에서 전설로만 전해지던 '셰이드 코드'의 실체를 마주합니다. 그것은 사용자가 '유령 타임라인', 즉 거짓 현실을 만들어 마스터 기록에 완벽하게 삽입할 수 있게 해주는 코드였습니다.</p>
       
-      <h2>The Flaw in Perfection</h2>
-      <p>Elias Vance, a chief architect of the Chrysalis system itself, was found dead in his penthouse apartment, sealed from the inside. The official report, generated and filed by Chrysalis in picoseconds: "Cause of death: Spontaneous Coronary Artery Dissection. No other individuals present." Case closed. But Detective Kaito Tanaka, a relic from the Homicide division who mostly spent his days studying the savage acts of his ancestors, saw a crack in the perfect narrative. A microscopic puncture at the base of Vance's skull, almost invisible. He had been assassinated.</p>
+      <h2>2. 존재가 삭제된 형사 👤</h2>
+      <p>카이토가 본 밴스의 죽음 영상은 심장마비 기록이 아니었습니다. 현실의 코드로 쓰인 한 편의 소설이었던 것입니다. 누군가 역사를 다시 쓰고, 살인이 일어나지 않은 세상을 창조함으로써 완벽한 살인을 저지를 힘을 손에 넣었습니다. 그리고 공식적인 이야기에 의문을 제기한 카이토는 그들의 새로운 현실 속 '글리치'였습니다. 삭제되어야 할 오류. 그의 공공 기록이 깜빡이기 시작했습니다. 아파트 출입이 거부되고, 그의 디지털 화폐가 사라졌습니다. 10년 지기 파트너는 그를 처음 보는 사람처럼 쳐다봤습니다. 유리 도시에게 형사 카이토 타나카는 더 이상 존재하지 않았습니다.</p>
 
-      <h2>Shade Code</h2>
-      <blockquote>Kaito felt a cold dread wash over him. The killer hadn't just bypassed the most sophisticated surveillance system ever created. They had weaponized it. The Chrysalis footage of Vance's death was flawless, showing the man clutching his chest and falling to the floor. But it felt wrong. Rehearsed. Kaito had stumbled upon a legend among old-school coders: 'Shade Code.' A ghost in the machine, a theoretical exploit that allowed a user to create a 'phantom timeline'—a new, false reality—and seamlessly insert it into the master record.</blockquote>
-      <p>What Kaito had watched wasn't a recording of a heart attack. It was a work of fiction, written with the code of reality itself. It was a DEMONSTRATION of impossible power. Someone, somewhere, now had the ability to rewrite history, to edit lives, to commit the perfect murder by creating a world in which the murder never even happened.</p>
-
-      <h2>The Ghost in the Glass</h2>
-      <p>And Kaito, with his questions and his refusal to accept the official story, was a glitch in their new reality. A glitch that needed to be deleted. His own public records began to flicker. His apartment access was denied. His digital currency vanished. His partner of ten years looked at him with the blank stare of a stranger. To the city of glass, Detective Kaito Tanaka no longer existed. He was a ghost, hunted by a phantom that could rewrite the world to ensure he was never even born. His only choice was to go offline, to dive into the forgotten, unmonitored depths of the old city, and fight a killer who controlled the very fabric of truth.</p>
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>현실을 조작할 수 있는 힘을 가진 범인을 상대로 카이토는 어떻게 싸워야 할까요? 모든 기록에서 지워진 그가 자신의 존재를 증명할 방법이 있을까요?</p>
+      </blockquote>
     `,
     imageId: 'post-3',
     featured: false,
@@ -117,17 +138,24 @@ const articles: Article[] = [
     title: 'The Devil\'s Pass',
     author: 'Alex Ivanov',
     publishedDate: 'September 28, 2023',
-    excerpt: 'Nine hikers found dead in the snow, their tent ripped open from the inside. Some have impossible injuries, one is missing her tongue. The file says \'a compelling natural force.\' The file lies.',
+    excerpt: '눈 속에서 9명의 등산객이 사망한 채 발견됩니다. 텐트는 안에서 찢겨 있었고, 일부는 설명할 수 없는 심각한 부상을 입었습니다. 파일에는 "압도적인 자연의 힘"이라 적혀있지만, 파일은 거짓말을 하고 있습니다.',
     content: `
-      <h2>The Kholat Syakhl</h2>
-      <p>In the frigid heart of the Ural Mountains lies a peak the local Mansi people call Kholat Syakhl: "Dead Mountain." They say the gods travel there to die and that no human should ever disturb its slumber. In February 1959, nine experienced Soviet hikers, all students from the Ural Polytechnical Institute, ignored those warnings. They were young, strong, and confident. They never came back. Their last campsite was pitched on the exposed slope of the mountain, a decision that baffled investigators. It was their first, and last, mistake.</p>
-      
-      <h2>A Tent Torn from Within</h2>
-      <p>What the search party found weeks later was a scene of pure, inexplicable horror. Their tent was SAVAGELY ripped and cut open, not from the outside, but from the inside. The hikers had fled in a blind panic, abandoning their supplies, their warm clothes, even their boots, into the sub-zero wilderness where temperatures plunged to -30°C. Footprints in the snow showed they walked, not ran, in an orderly line down the slope, as if being led. The first two bodies were found a mile away under a cedar tree, barefoot and dressed only in their underwear, their hands raw and bloody from trying to climb the tree. The next three were found between the tree and the tent, seemingly frozen while trying to return.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1959-DP:</strong> 1959년 2월, 구소련 우랄 산맥에서 9명의 숙련된 등산객이 사망했습니다. 단순한 조난 사고로 보기에는 너무나도 기이하고 끔찍한 미스터리, '댜틀로프 고개 사건'의 전말입니다.
+      </blockquote>
+      <p>우랄 산맥의 한 봉우리는 현지 만시족에게 '홀라트 샤클', 즉 '죽음의 산'이라 불립니다. 신들이 죽음을 맞이하러 가는 곳이기에 인간은 그곳의 안식을 방해해서는 안 된다는 전설이 내려오죠. 1959년 2월, 우랄 폴리테크닉 대학 소속의 9명의 베테랑 등산객들은 그 경고를 무시했습니다. 젊고, 강하며, 자신감 넘쳤던 그들은 다시 돌아오지 못했습니다. 그들의 마지막 캠프는 산비탈에 설치되어 있었는데, 전문가들이 보기에는 매우 이례적인 결정이었습니다. 그것이 그들의 첫 번째이자 마지막 실수였습니다.</p>
 
-      <h2>Impossible Injuries</h2>
-      <blockquote>The initial cause of death for the first five was hypothermia. A tragic, but perhaps understandable, accident. But then, two months later, the spring thaw revealed the real mystery. The last four bodies were discovered in a ravine, buried under four meters of snow. Their injuries were catastrophic. One had a fractured skull so severe it was compared to the force of a car crash. Another had major chest fractures, as if crushed by an immense, invisible force. Most disturbing of all? There were no external signs of trauma, no soft tissue damage. It was as if they had been crushed from the inside out.</blockquote>
-      <p>And Lyudmila Dubinina, one of the hikers, was found missing her tongue, her eyes, and part of her lips. The investigation was abruptly closed, the final report classifying the event as the result of a "compelling natural force." The files were sealed for decades. What 'natural force' could cause such specific, horrific injuries while leaving no external marks? Why did nine experienced hikers cut their way out of their only shelter into a frozen hell? What did they see on the slopes of Dead Mountain that was more terrifying than freezing to death?</p>
+      <h2>1. 안에서 찢긴 텐트 ⛺</h2>
+      <p>몇 주 후 수색대가 발견한 것은 순수하고 설명할 수 없는 공포의 현장이었습니다. 그들의 텐트는 밖이 아닌, 안에서 잔인하게 찢겨져 있었습니다. 등산객들은 영하 30도의 혹한 속으로 보급품, 따뜻한 옷, 심지어 부츠까지 버리고 맨발로 뛰쳐나갔습니다. 눈 위에 남겨진 발자국은 그들이 뛰지 않고, 마치 인도되는 것처럼 질서정연하게 언덕을 내려갔음을 보여주었습니다.</p>
+
+      <h2>2. 설명 불가능한 부상 💀</h2>
+      <blockquote>처음 발견된 5구의 사인은 저체온증이었습니다. 비극적이지만, 이해할 수 있는 사고였죠. 하지만 두 달 후, 봄이 되어 눈이 녹자 진짜 미스터리가 드러났습니다. 마지막 4구의 시신이 계곡에서 발견되었는데, 그들의 부상은 치명적이었습니다. 한 명은 교통사고 수준의 두개골 골절, 다른 한 명은 외부 충격 없이 갈비뼈가 으스러져 있었습니다. 마치 보이지 않는 거대한 힘에 의해 짓눌린 것처럼요. 가장 충격적인 것은, 한 여성 대원의 혀가 사라졌다는 사실입니다.</blockquote>
+      <p>조사는 갑작스럽게 종결되었고, 최종 보고서는 이 사건을 "압도적인 자연의 힘"의 결과로 분류했습니다. 그리고 관련 파일은 수십 년간 봉인되었습니다. 어떤 '자연의 힘'이 외부 상처 없이 내부 장기만 파괴할 수 있을까요? 9명의 베테랑 등산객들은 왜 유일한 안식처를 찢고 얼어붙은 지옥으로 걸어 나갔을까요?</p>
+
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>군사 실험의 희생양일까요, 아니면 설인(예티)과 같은 미확인 생명체의 공격이었을까요? 아니면 초자연적인 현상이었을까요? 댜틀로프 고개에 숨겨진 진실은 무엇일까요?</p>
+      </blockquote>
     `,
     imageId: 'post-4',
     featured: false,
@@ -138,20 +166,24 @@ const articles: Article[] = [
     title: 'The Vanishing',
     author: 'Eleanor Vance',
     publishedDate: 'September 19, 2023',
-    excerpt: 'An entire colony of 115 people disappeared, leaving only one clue: the word "CROATOAN" carved into a tree. Was it their destination, or the name of what devoured them?',
+    excerpt: '115명의 식민지 개척자들이 하룻밤 사이에 사라졌습니다. 그들이 남긴 유일한 단서는 나무에 새겨진 "CROATOAN"이라는 단어뿐. 이것은 그들의 목적지였을까요, 아니면 그들을 삼켜버린 존재의 이름이었을까요?',
     content: `
-      <h2>The City of Raleigh</h2>
-      <p>In 1587, over 115 English men, women, and children sought to carve a piece of the New World for themselves. Led by Governor John White, they established the "Citie of Ralegh" on Roanoke Island, a precarious foothold between the vast, unforgiving Atlantic and a continent teeming with the unknown. Shortly after, White's granddaughter, Virginia Dare, became the first English child born in America. Hope was high, but supplies were low. White was forced to leave for England to gather reinforcements, promising to return within a year. The war with the Spanish Armada delayed his return for three long, agonizing years. The colonists of Roanoke were left alone, a forgotten island in a sea of mystery.</p>
-
-      <h2>A Silent Settlement</h2>
-      <p>When Governor White finally returned in August 1590, on his granddaughter's third birthday, he found nothing. The settlement was gone. Not destroyed, but dismantled. The houses had been carefully taken down, all signs of habitation vanished. The area was fortified with a palisade, suggesting they were preparing for a threat, but there were no bodies, no bones, no signs of a struggle or battle. It was as if 115 people had simply… vanished into the humid air. He searched for the signal they had agreed upon: if they were forced to leave, they would carve their destination into a tree, with a Maltese cross if they were in distress.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1590-RV:</strong> 1587년, 아메리카 대륙에 첫발을 내디딘 115명의 영국인. 3년 후, 그들은 단 하나의 단어만을 남긴 채 증발했습니다. '로어노크 식민지 실종 사건'의 미스터리입니다.
+      </blockquote>
+      <p>1587년, 115명 이상의 영국인 남성, 여성, 아이들이 신세계에 자신들의 터전을 개척하고자 했습니다. 존 화이트 총독의 지휘 아래, 그들은 로어노크 섬에 '롤리 시'를 건설했습니다. 곧 미국 땅에서 태어난 최초의 영국 아이, 버지니아 데어가 태어나며 희망은 부풀었지만, 보급품은 부족했습니다. 화이트 총독은 보급품을 구하기 위해 영국으로 떠나며 1년 안에 돌아오겠다고 약속했습니다. 하지만 스페인 무적함대와의 전쟁으로 그의 귀환은 3년이나 늦어졌고, 로어노크의 개척자들은 잊혀진 섬에 고립되었습니다.</p>
       
-      <h2>Whispers on the Wind</h2>
-      <blockquote>He found it. Carved into a post of the fort's entrance was a single, cryptic word: "CROATOAN." There was no cross.</blockquote>
-      <p>This suggested a peaceful move to nearby Croatoan Island (modern-day Hatteras Island), home to a friendly tribe of Native Americans. But a powerful hurricane was bearing down, and White's men refused to risk the journey. He was forced back to England, heartbroken, never to see his family or his colony again. The Lost Colony was officially lost. For centuries, the mystery has endured. Did they assimilate with the native tribes, their English bloodlines merging with the people of the New World? Were they wiped out by the Spanish, or a hostile tribe, their bodies hidden to time? If so, where are the graves?</p>
+      <h2>1. 침묵의 정착지 🏚️</h2>
+      <p>1590년 8월, 손녀의 세 번째 생일에 맞춰 마침내 돌아온 화이트 총독이 발견한 것은 아무것도 없었습니다. 정착지는 파괴된 것이 아니라, '해체'되어 있었습니다. 집들은 조심스럽게 철거되었고, 거주의 흔적은 모두 사라졌습니다. 전투나 투쟁의 흔적, 시체나 뼈조차 없었습니다. 마치 115명의 사람들이 습한 공기 속으로 증발해버린 것 같았죠.</p>
 
-      <h2>The Name of the Beast</h2>
-      <p>The utter lack of any archaeological evidence is the most chilling part of the mystery. What if "CROATOAN" wasn't a destination, but a name? Some local legends speak of a spirit of the land, a powerful entity that did not suffer trespassers. Could the word be a reference to a force that erased the colonists not through violence, but by absorbing them into the fabric of the New World itself? It's a story with no final chapter, a settlement that became a ghost, leaving only a single, haunting word carved into a tree as its epitaph.</p>
+      <h2>2. 나무에 새겨진 단서 🌳</h2>
+      <blockquote>그가 찾은 유일한 단서는 요새 입구 기둥에 새겨진 단 한 단어, "CROATOAN"이었습니다. 조난 신호인 몰타 십자가는 없었습니다. 이는 근처 크로아토안 섬으로 평화롭게 이주했음을 암시했습니다. 하지만 강력한 허리케인이 몰려오고 있었고, 선원들은 항해를 거부했습니다. 화이트는 결국 가족과 식민지를 다시는 보지 못한 채 영국으로 돌아가야 했습니다. '잃어버린 식민지'는 공식적으로 길을 잃었습니다.</blockquote>
+      <p>수 세기 동안 미스터리는 계속되었습니다. 그들은 원주민 부족에 동화되었을까요? 아니면 스페인 군대나 적대적인 부족에게 학살당했을까요? 만약 그렇다면, 그들의 무덤은 어디에 있을까요? 고고학적 증거가 전혀 없다는 것이 이 미스터리의 가장 소름 끼치는 부분입니다.</p>
+
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>"CROATOAN"은 목적지가 아니라, 그들을 집어삼킨 무언가의 이름은 아니었을까요? 로어노크의 개척자들에게 과연 무슨 일이 일어났던 걸까요?</p>
+      </blockquote>
     `,
     imageId: 'post-5',
     featured: false,
@@ -162,17 +194,28 @@ const articles: Article[] = [
     title: 'The Body on the Beach',
     author: 'Julian Blackwood',
     publishedDate: 'September 12, 2023',
-    excerpt: 'An unidentified man is found dead on a beach. In his pocket, a scrap of paper with two words: "Tamám Shud" - It is finished. His identity, his cause of death, and a coded message remain a perfect, impenetrable mystery.',
+    excerpt: '호주 해변에서 신원 미상의 남자가 시체로 발견됩니다. 주머니 속 쪽지에는 단 두 단어, "타맘 슈드" - 끝났다. 그의 신원, 사인, 그리고 암호는 완벽한 미스터리로 남았습니다.',
     content: `
-      <h2>The Unknown Man</h2>
-      <p>On the morning of December 1, 1948, a man was found lying dead on Somerton beach in Adelaide, Australia. He was dressed impeccably in a suit and tie, his shoes polished, his head propped against a seawall as if enjoying the view. He was in peak physical condition. There were no signs of a struggle, no violence. His clothes were pristine, but every single label had been meticulously removed. Police could not identify him from his dental records or fingerprints. In a hidden fob pocket of his trousers, they found a small, tightly rolled-up piece of paper printed with two words in an elegant script: "Tamám Shud."</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1948-SC:</strong> 1948년 12월 1일, 호주 서머튼 해변에서 발견된 한 남자의 시신. 그의 정체와 죽음을 둘러싼 모든 것이 미스터리인 '타맘 슈드 사건'입니다.
+      </blockquote>
+      <p>1948년 12월 1일 아침, 호주 애들레이드의 서머튼 해변에서 한 남자가 방파제에 기댄 채 시신으로 발견되었습니다. 그는 흠잡을 데 없는 양복과 넥타이 차림이었고, 구두는 잘 닦여 있었습니다. 외상의 흔적은 전혀 없었고, 그의 옷에 붙어있던 모든 상표는 깨끗하게 제거된 상태였습니다. 경찰은 치과 기록이나 지문으로 그의 신원을 확인할 수 없었습니다. 그의 바지 주머니 속에서 발견된 것은, 우아한 필체로 인쇄된 두 단어가 적힌 작게 말린 종이 조각이었습니다. "타맘 슈드(Tamám Shud)."</p>
+      
+      <h2>1. 시인의 마지막 말 📜</h2>
+      <p>페르시아어로 "끝났다" 또는 "완성되었다"를 의미하는 이 구절은 오마르 하이얌의 시집 '루바이야트'의 희귀판에서 찢겨 나온 것으로 밝혀졌습니다. 전국적인 수색 끝에, 경찰은 해변 근처에 주차된 잠금 해제된 차 뒷좌석에서 그 책을 찾아냈습니다. 책의 뒷면에는 희미한 연필로 쓰인, 해독 불가능해 보이는 암호가 적혀 있었습니다. 또한 책에는 시신이 발견된 곳에서 아주 가까운 곳에 사는 한 간호사의 전화번호가 적혀 있었습니다.</p>
 
-      <h2>A Poet's Final Words</h2>
-      <p>The phrase, Persian for "it is ended" or "it is finished," was traced back to a rare edition of The Rubáiyát of Omar Khayyám, a collection of poems. A nationwide search located the exact book from which the page had been torn, found in the back of an unlocked car near the beach. In the back of this book, written in faint pencil, was what appeared to be an unbreakable code—a series of seemingly random capital letters. The book also contained the unlisted phone number of a local nurse who lived just a short walk from where the body was found.</p>
+      <blockquote>
+        <strong>🕵️ 수사 기록:</strong><br>
+        '제스틴'이라고만 알려진 그 간호사는 그 남자를 모른다고 주장했지만, 그의 얼굴 석고상을 보자 거의 기절할 뻔했습니다. 그녀는 한때 같은 희귀 시집을 소유했으며, 2차 세계대전 중 '알프레드 복살'이라는 육군 장교에게 주었다고 인정했습니다.
+      </blockquote>
 
-      <h2>The Spy and the Nurse</h2>
-      <blockquote>When questioned, the nurse, known only as "Jestyn," was evasive and claimed she didn't know the man. But witnesses said she appeared visibly distressed, almost fainting when shown a plaster cast of his face. She admitted that she had once owned a copy of the same rare book, which she said she gave to an army officer named Alfred Boxall during World War II.</blockquote>
-      <p>Hope surged through the investigation. Had they found their man? But the hope was short-lived. Alfred Boxall was quickly found, alive and well, with his copy of the Rubáiyát intact—the "Tamám Shud" page still inside. The mystery deepened into a labyrinth. Who was the dead man? Was he a Cold War spy, silenced by an untraceable poison before he could meet his contact? Was Jestyn his lover, his handler, or a fellow agent, now terrified into silence? The code has never been deciphered. The man's identity has never been confirmed. The Taman Shud case remains one of the most baffling and perfect mysteries of all time, a story truly 'finished' before it even began.</p>
+      <h2>2. 스파이와 간호사 💔</h2>
+      <p>수사팀은 희망에 부풀었습니다. 드디어 남자의 신원을 찾은 것일까요? 하지만 희망은 금세 사라졌습니다. 알프레드 복살은 살아있었고, 그가 가진 '루바이야트' 시집에는 "타맘 슈드" 페이지가 그대로 붙어 있었습니다. 미스터리는 더욱 깊은 미궁으로 빠져들었습니다. 죽은 남자는 누구였을까요? 접선책을 만나기 직전, 추적 불가능한 독으로 살해당한 냉전 시대의 스파이였을까요? '제스틴'은 그의 연인이었을까요, 아니면 동료 요원이었을까요? 암호는 아직까지도 해독되지 않았고, 남자의 신원은 영원한 미스터리로 남았습니다.</p>
+      
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>정교하게 계획된 암살일까요, 아니면 비극적인 사랑 이야기의 결말일까요? '타맘 슈드' 사건의 진실은 무엇이라고 생각하시나요?</p>
+      </blockquote>
     `,
     imageId: 'post-6',
     featured: false,
@@ -183,17 +226,24 @@ const articles: Article[] = [
     title: 'The Ghost Ship\'s Final Scream',
     author: 'Coral Black',
     publishedDate: 'September 5, 2023',
-    excerpt: 'The most terrifying distress call in maritime history. "All officers... are dead... probably whole crew dead." Then, a final message from the radio operator: "I die." What they found on board was worse than they could ever imagine.',
+    excerpt: '해상 역사상 가장 끔찍한 조난 신호. "모든 장교... 사망... 아마도 선원 전체가 사망." 그리고 무선사로부터 온 마지막 메시지: "나도 죽는다." 그 배에서 발견된 것은 상상보다 끔찍했습니다.',
     content: `
-      <h2>The S.O.S.</h2>
-      <p>In the sweltering heat of June 1947, a chilling Morse code message rippled across the shipping lanes of the Strait of Malacca. It came from the Dutch freighter SS Ourang Medan. The transmission was disjointed, laced with panic. "S.O.S. from Ourang Medan... we float. All officers including captain are dead in chartroom and on the bridge. Probably whole crew dead." This was followed by a burst of indecipherable code, a frantic scramble of dots and dashes, and then, two final, horrifying words: "I die." Then, silence.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1947-OM:</strong> 1947년 6월, 말라카 해협에서 수신된 네덜란드 화물선 '오랑 메단'호의 마지막 비명. 이것은 단순한 조난 신호가 아니었습니다.
+      </blockquote>
+      <p>1947년 6월의 무더운 어느 날, 말라카 해협의 항로에 섬뜩한 모스 부호 메시지가 울려 퍼졌습니다. 네덜란드 화물선 SS 오랑 메단 호로부터 온 신호였습니다. "오랑 메단에서 S.O.S... 우리는 떠다니고 있다. 선장을 포함한 모든 장교가 조타실과 함교에서 사망. 아마도 선원 전체가 사망했을 것." 이어서 해독 불가능한 코드와 함께, 두 단어의 마지막 메시지가 전해졌습니다. "나도 죽는다." 그리고 영원한 침묵.</p>
+      
+      <h2>1. 시체들의 배 🚢</h2>
+      <p>미국 상선 '실버 스타'호가 가장 먼저 응답하여 오랑 메단 호의 마지막 위치로 향했습니다. 배는 아무런 생명의 신호 없이 바다 위를 떠다니고 있었습니다. 구조를 위해 승선한 파티가 발견한 것은 악몽과도 같은 광경이었습니다. 선원 전원이 갑판 곳곳에 시체로 널려 있었습니다. 함교의 선장, 조타실의 장교들, 모스 부호 키에 손을 얹은 채 굳어버린 무선사까지.</p>
 
-      <h2>A Ship of Corpses</h2>
-      <p>The American merchant ship Silver Star was the first to respond, racing towards the Ourang Medan's last known position. They located the ship adrift and eerily silent under the blazing sun. No flags, no smoke from the funnel, no signs of life. A boarding party was sent over, their calls echoing unanswered across the water. What they found was a scene from a nightmare. The entire crew lay dead, their bodies scattered across the decks. The captain on the bridge, the officers in the chartroom, the radio operator at his post, his hand still on the Morse key, fingers frozen in the act of transmission.</p>
-
-      <h2>Frozen in Fear</h2>
-      <blockquote>Every single man, even the ship's dog, was found frozen in the same impossible state. Their eyes were wide open, their faces twisted into masks of sheer, unimaginable terror, arms outstretched as if fending off some unseen attacker. Their mouths were locked in silent screams. Yet, there were no signs of injury or struggle on any of the bodies. It was as if they had been, quite literally, scared to death.</blockquote>
-      <p>The ship itself felt unnaturally cold, despite the tropical heat. The boarding party decided to tow the ghost ship to port. But as they attached the line, thick smoke began to pour from the number 4 cargo hold. They barely had time to cut the tow line and retreat before the Ourang Medan was ripped apart by a massive explosion, sinking in minutes and taking its horrific secret to the bottom of the sea. What was in the cargo hold? Was it an unregistered nerve agent, leaking and causing mass hallucinations and death? Or did the crew of the Ourang Medan encounter something far older, and far more malevolent, in the lonely waters of the strait? The ship and its crew are gone, leaving only their final, terrified scream echoing through maritime legend.</p>
+      <h2>2. 공포에 얼어붙다 🥶</h2>
+      <blockquote>배에 있던 모든 사람, 심지어 배의 개까지 모두 불가능한 상태로 얼어붙어 있었습니다. 눈은 공포로 크게 뜨여 있었고, 얼굴은 상상할 수 없는 공포에 질려 일그러져 있었습니다. 팔은 보이지 않는 무언가를 막으려는 듯 뻗어 있었죠. 하지만 그 어떤 시신에서도 외상이나 싸움의 흔적은 찾아볼 수 없었습니다. 말 그대로, '겁에 질려 죽은' 것처럼 보였습니다.</blockquote>
+      <p>열대 기후에도 불구하고 배 내부는 부자연스러울 정도로 차가웠습니다. 승선 파티는 유령선을 항구로 견인하기로 결정했습니다. 하지만 견인줄을 연결하는 순간, 4번 화물창에서 짙은 연기가 뿜어져 나오기 시작했습니다. 그들이 견인줄을 자르고 간신히 후퇴하자마자, 오랑 메단 호는 거대한 폭발과 함께 산산조각 나며 바닷속으로 사라졌고, 끔찍한 비밀도 함께 묻혔습니다.</p>
+      
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>화물칸에는 무엇이 실려 있었을까요? 등록되지 않은 신경 가스였을까요? 아니면 오랑 메단 호의 선원들은 그 외로운 바다에서 훨씬 더 오래되고 사악한 무언가와 마주쳤던 것일까요?</p>
+      </blockquote>
     `,
     imageId: 'post-7',
     featured: false,
@@ -204,17 +254,24 @@ const articles: Article[] = [
     title: 'The Silent Lighthouse',
     author: 'Arthur Machen',
     publishedDate: 'August 29, 2023',
-    excerpt: 'Three lighthouse keepers vanish from a remote Scottish island. The table is set for a meal that was never eaten. An overturned chair. A single set of oilskins missing. They were never seen again.',
+    excerpt: '스코틀랜드의 외딴 섬에서 등대지기 3명이 사라졌습니다. 식탁에는 먹다 남은 음식이, 그리고 의자 하나는 넘어져 있었습니다. 그들은 다시는 보이지 않았습니다.',
     content: `
-      <h2>The Lonely Watch</h2>
-      <p>In the wild, storm-lashed waters of the Outer Hebrides of Scotland, the Flannan Isles are a place of myth and foreboding. In December 1900, the newly built lighthouse on the main island, Eilean Mòr, went dark. It was a vital beacon for ships navigating those treacherous waters. A passing steamer on the Philadelphia-Leith route noted the anomaly on December 15th, but it wasn't until the relief vessel, the Hesperus, arrived on December 26th that the mystery began to unfold.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1900-FL:</strong> 1900년 12월, 스코틀랜드의 외딴 플래넌 섬에서 등대의 불이 꺼졌습니다. 그리고 그곳을 지키던 3명의 등대지기가 흔적도 없이 사라졌습니다.
+      </blockquote>
+      <p>1900년 12월, 스코틀랜드 아우터 헤브리디스 제도의 거친 바다에 자리한 플래넌 섬. 새로 지어진 등대의 불빛이 꺼졌다는 보고가 들어왔습니다. 12월 26일, 구호선 '헤스페루스'가 섬에 도착했을 때, 그들을 맞이한 것은 섬뜩한 침묵뿐이었습니다. 토마스 마셜, 제임스 듀캣, 도널드 맥아더, 세 명의 등대지기 중 누구도 보이지 않았습니다.</p>
 
-      <h2>An Eerie Silence</h2>
-      <p>The relief keeper, Joseph Moore, was met with a chilling silence. The island was supposed to be manned by three keepers: Thomas Marshall, James Ducat, and Donald McArthur. The landing stage was empty. The flagstaff was bare. Most disturbingly, none of the three keepers were there to greet him. Moore ascended the steep steps to the lighthouse, a growing dread in his stomach. He found the main door unlocked. Inside, the lighthouse itself was pristine. The lamps were cleaned and refilled, ready for lighting. The clocks had all stopped.</p>
+      <h2>1. 섬뜩한 침묵의 등대 🏠</h2>
+      <p>구호선 선원 조셉 무어는 등대로 올라갔습니다. 정문은 잠겨있지 않았습니다. 안으로 들어서자, 등대 내부는 완벽하게 정돈되어 있었습니다. 램프는 깨끗이 닦여 있었고, 기름도 가득 채워져 있었습니다. 하지만 모든 시계가 멈춰 있었습니다. 거실에는 먹다 만 소금에 절인 양고기와 감자가 식탁 위에 그대로 놓여 있었습니다. 의자 하나는 마치 누군가 갑자기 겁에 질려 일어서다 넘어뜨린 것처럼 쓰러져 있었습니다.</p>
 
-      <h2>Clues to Nowhere</h2>
-      <blockquote>In the small living quarters, a half-eaten meal of salted mutton and potatoes sat on the table. A single chair was overturned, as if someone had jumped up from the table in a sudden panic. The last entry in the logbook, for December 15th, was bizarre. It spoke of a severe storm with winds the likes of which keeper Marshall, a veteran mariner, had never seen. "Storm winds so violent," the log read, "James Ducat has been very quiet, Donald McArthur has been crying." But the strangest clue was the outdoor gear. Two sets of oilskins were in their place. Only one was missing, belonging to Donald McArthur.</blockquote>
-      <p>This suggests that two of the men, Marshall and Ducat, rushed out into a raging storm without their protective gear. Why? The official explanation concluded that a massive, unexpected rogue wave swept them from the cliffside while they were attending to equipment, and the third keeper went for help and was also washed away. But does that explain the overturned chair? The untouched meal? Or the logbook entries describing a storm that no other ship in the area had reported, on a day when the skies were clear? Had they seen something in the waves? Or had something from the sea come for them?</p>
+      <h2>2. 폭풍의 기록 ⛈️</h2>
+      <blockquote>마지막 항해 일지 기록은 12월 15일 자였습니다. 베테랑 선원이었던 토마스 마셜은 "이런 맹렬한 폭풍은 본 적이 없다"고 적었습니다. "제임스 듀캣은 말이 없고, 도널드 맥아더는 울고 있다." 하지만 가장 이상한 단서는 야외 장비였습니다. 두 벌의 방수복은 제자리에 있었지만, 도널드 맥아더의 것만 사라져 있었습니다.</blockquote>
+      <p>이는 마셜과 듀캣이 보호 장비도 없이 맹렬한 폭풍 속으로 뛰쳐나갔다는 것을 의미합니다. 왜 그랬을까요? 공식 조사는 거대한 이상 파도가 그들을 덮쳤다고 결론 내렸습니다. 하지만 그것이 넘어진 의자와 먹다 만 식사를 설명할 수 있을까요? 그리고 그날, 주변의 다른 배들은 맑은 하늘을 보고했는데, 왜 등대의 일지에만 끔찍한 폭풍이 기록되어 있었을까요?</p>
+
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>그들은 파도 속에서 무엇을 본 것일까요? 아니면 바다에서 온 '무언가'가 그들을 데려간 것일까요? 플래넌 섬 등대지기들의 마지막 순간에 무슨 일이 있었던 걸까요?</p>
+      </blockquote>
     `,
     imageId: 'post-8',
     featured: false,
@@ -225,20 +282,24 @@ const articles: Article[] = [
     title: 'The Green Children from Nowhere',
     author: 'Brother John',
     publishedDate: 'August 22, 2023',
-    excerpt: 'In the 12th century, two children with green skin appeared in an English village. They spoke an unknown language and would only eat raw beans. Where did they come from? And why were they green?',
+    excerpt: '12세기 영국, 녹색 피부를 가진 두 아이가 나타났습니다. 그들은 알 수 없는 언어를 사용했고, 오직 날콩만 먹었습니다. 그들은 어디에서 왔을까요? 그리고 왜 피부가 녹색이었을까요?',
     content: `
-      <h2>The Arrival</h2>
-      <p>Sometime during the chaotic reign of King Stephen in 12th-century England, the villagers of Woolpit made a bizarre discovery. Emerging from one of the deep wolf-trapping pits for which the town was named were two children, a boy and a girl. They were terrified and huddled together, but it wasn't their fear that shocked the villagers. Their clothes were made of an unfamiliar fabric, they spoke a language no one could understand, and most unnervingly, their skin was a distinct shade of green.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1173-GC:</strong> 12세기 영국 울핏 마을에서 발견된 두 명의 아이. 그들의 피부는 녹색이었고, 그들이 온 곳은 '해가 뜨지 않는 땅'이었습니다.
+      </blockquote>
+      <p>12세기 영국 스티븐 왕의 혼란스러운 통치 기간 중, 울핏 마을 사람들은 기이한 발견을 했습니다. 마을 이름의 유래가 된 늑대 잡이 함정에서 두 아이, 남자아이와 여자아이가 나타난 것입니다. 겁에 질린 채 서로를 껴안고 있는 아이들의 모습이 마을 사람들을 충격에 빠뜨린 이유는 따로 있었습니다. 그들은 낯선 옷을 입고 있었고, 아무도 이해할 수 없는 언어를 사용했으며, 가장 불안하게도, 그들의 피부는 선명한 녹색이었습니다.</p>
 
-      <h2>A Different World</h2>
-      <p>The children were taken in by a local landowner, Sir Richard de Calne, but they were inconsolable and refused all food. For days they starved, turning away bread, meat, and milk. Finally, the villagers brought them freshly harvested broad beans, which the children fell upon and devoured raw. For months, it was all they would eat. The boy, who was younger and appeared sickly, grew more and more despondent, and died within a year. The girl, however, gradually adapted. She was baptized, learned to eat other foods, and as her diet changed, her strange green skin slowly faded to a normal human pallor.</p>
+      <h2>1. 다른 세상에서 온 아이들 👽</h2>
+      <p>아이들은 지역 지주인 리처드 드 칸 경에게 보내졌지만, 며칠 동안 어떤 음식도 거부하며 굶었습니다. 마침내 마을 사람들이 갓 수확한 잠두콩을 가져다주자, 아이들은 게걸스럽게 날것으로 먹기 시작했습니다. 몇 달 동안 그들은 그것만 먹었습니다. 더 어리고 병약해 보였던 남자아이는 결국 1년 안에 죽었습니다. 하지만 여자아이는 점차 적응해 나갔습니다. 그녀는 세례를 받고 다른 음식을 먹는 법을 배웠고, 식단이 바뀌자 기묘했던 녹색 피부가 점차 정상적인 색으로 변했습니다.</p>
       
-      <h2>St. Martin's Land</h2>
-      <blockquote>Once she learned to speak English, she told a remarkable and baffling story. She and her brother came from a place called St. Martin's Land, a subterranean world where the sun never rose and everything was bathed in a perpetual twilight. She said everyone and everything in her world was green.</blockquote>
-      <p>She claimed they were herding their father's flock when they were drawn to a loud, bell-like sound. They followed it into a cave and wandered in darkness for a long time before emerging into the bright, blinding sunlight of Woolpit, which stunned and terrified them. Was this a fairytale, a garbled account of a real event, or something else entirely? Historians have tried to rationalize it. Were they lost Flemish immigrants, their strange tongue mistaken for an unknown language? Did they suffer from "Green Sickness," a form of anemia that can tint the skin, brought on by malnutrition?</p>
-
-      <h2>Visitors from Below?</h2>
-      <p>But these theories don't fully explain the story. How did they get into the wolf pit? And what of their description of a twilight land? Could the children of Woolpit have been visitors from another dimension? Or even aliens, their "subterranean world" being the inside of a ship? The story is a historical anomaly, recorded by two separate and respected chroniclers of the time. It is a brief, baffling flash of the impossible in the pages of history, a mystery that is too strange to be made up. Who were the green children, and what twilight world did they truly come from?</p>
+      <h2>2. '성 마틴의 땅'  지하 세계  지하세계  subterranean world</h2>
+      <blockquote>영어를 배우게 된 소녀는 놀랍고 혼란스러운 이야기를 들려주었습니다. 그녀와 남동생은 '성 마틴의 땅'이라는 곳에서 왔는데, 그곳은 해가 결코 뜨지 않고 모든 것이 영원한 황혼에 잠겨 있는 지하 세계라고 했습니다. 그녀는 그 세계의 모든 사람과 모든 것이 녹색이라고 말했습니다.</blockquote>
+      <p>그녀는 아버지의 양 떼를 몰다가 크고 종소리 같은 소리에 이끌려 동굴로 들어갔고, 오랫동안 어둠 속을 헤매다 울핏 마을의 눈부신 햇빛 속으로 나오게 되었다고 주장했습니다. 이것은 동화일까요, 아니면 실제 사건에 대한 왜곡된 기록일까요? 역사학자들은 이를 합리적으로 설명하려 노력했습니다. 영양실조로 인한 빈혈증이 피부를 녹색으로 보이게 했을 수 있다는 것이죠. 하지만 이 이론들은 아이들이 어떻게 함정에 빠졌는지, 그리고 황혼의 땅에 대한 묘사를 완전히 설명하지 못합니다.</p>
+      
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>울핏의 녹색 아이들은 다른 차원에서 온 방문자였을까요, 아니면 알려지지 않은 지하 문명의 일원이었을까요? 그들의 정체에 대한 당신의 생각은 무엇인가요?</p>
+      </blockquote>
     `,
     imageId: 'post-9',
     featured: false,
@@ -249,20 +310,24 @@ const articles: Article[] = [
     title: 'The Day the Sky Fell',
     author: 'Dr. Artyom Volkov',
     publishedDate: 'August 15, 2023',
-    excerpt: 'In 1908, a blast 1,000 times more powerful than the bomb on Hiroshima flattened a remote Siberian forest. Witnesses saw a column of blue light moving across the sky. There was only one problem: there was no impact crater.',
+    excerpt: '1908년, 히로시마 원자폭탄보다 1,000배 강력한 폭발이 시베리아 숲을 평평하게 만들었습니다. 목격자들은 하늘을 가로지르는 푸른 빛 기둥을 보았지만, 충돌구는 없었습니다.',
     content: `
-      <h2>The Great Siberian Explosion</h2>
-      <p>On the morning of June 30, 1908, a cataclysmic event occurred over the remote Tunguska River basin in Siberia. A massive explosion, estimated to be 1,000 to 2,000 times more powerful than the atomic bomb dropped on Hiroshima, detonated in the sky. It flattened over 2,150 square kilometers of taiga forest, felling an estimated 80 million trees in a perfect radial pattern. The shockwave was felt hundreds of kilometers away, and for days, the sky over Europe and Asia glowed with an eerie, silvery light, bright enough for people to read a newspaper at midnight in London.</p>
+      <blockquote>
+        <strong>⚠️ 사건 파일 #1908-TE:</strong> 1908년 6월 30일 시베리아 상공, 원자폭탄 수백 배의 위력을 지닌 정체불명의 공중 폭발. 인류 역사상 가장 거대한 '충돌' 사건, '퉁구스카 대폭발'입니다.
+      </blockquote>
+      <p>1908년 6월 30일 아침, 시베리아 퉁구스카 강 유역 상공에서 대재앙이 발생했습니다. 히로시마에 투하된 원자폭탄보다 1,000배 이상 강력한 것으로 추정되는 거대한 폭발이 하늘에서 일어났습니다. 이 폭발로 2,150 평방 킬로미터가 넘는 타이가 숲이 평탄화되었고, 약 8천만 그루의 나무가 완벽한 방사형 패턴으로 쓰러졌습니다. 충격파는 수백 킬로미터 밖에서도 느껴졌으며, 며칠 동안 유럽과 아시아의 하늘은 기이한 은빛으로 빛나, 런던에서는 한밤중에 신문을 읽을 수 있을 정도였습니다.</p>
 
-      <h2>A Craterless Impact</h2>
-      <p>Witnesses, mostly local Evenki herdsmen and Russian settlers, described seeing a "pillar of fire" or a "column of blue light, nearly as bright as the sun" moving across the sky. This was followed by a deafening sound like artillery fire and a shockwave that threw people to the ground and shattered windows hundreds of kilometers away. The immediate conclusion was a massive meteorite impact. But Russia's internal turmoil delayed any scientific investigation. When the first expedition, led by mineralogist Leonid Kulik, finally reached the isolated site in 1927, they found something that defied explanation: there was no crater.</p>
+      <h2>1. 충돌구 없는 폭발 💥</h2>
+      <p>주로 현지 에벤키족과 러시아 정착민이었던 목격자들은 "불기둥" 또는 "태양만큼 밝은 푸른 빛의 기둥"이 하늘을 가로질러 움직이는 것을 보았다고 묘사했습니다. 이어서 포격과 같은 귀청이 터질 듯한 소리와 함께 사람들을 땅에 내동댕이치고 수백 킬로미터 떨어진 곳의 창문을 깨뜨리는 충격파가 뒤따랐습니다. 최초의 결론은 거대한 운석 충돌이었습니다. 하지만 러시아의 내부 혼란으로 과학적 조사는 지연되었습니다. 1927년, 마침내 첫 탐사대가 고립된 현장에 도착했을 때, 그들은 설명할 수 없는 것을 발견했습니다. 바로, 충돌구가 없다는 사실이었습니다.</p>
+      
+      <h2>2. 수수께끼의 '전신주' 🌲</h2>
+      <blockquote>탐사대는 불에 그을리고 쓰러진 나무들의 광대한 '묘지'를 발견했지만, 폭발의 진원지에는 아이러니하게도 작은 나무들이 가지와 껍질이 벗겨진 채 그대로 서 있었습니다. 이른바 '전신주' 현상이었습니다. 충돌 지점도, 파편도, 무언가 지구에 부딪혔다는 물리적 증거도 없었습니다. 그 물체는, 무엇이든 간에, 거대한 공중 폭발 속에서 증발해버린 것처럼 보였습니다.</blockquote>
+      <p>이 '충돌구 없는' 발견은 100년간의 추측을 낳았습니다. 주류 과학 이론은 작은 소행성이나 혜성이 대기권에 진입하여 고도 5~10km에서 폭발했다는 것입니다. 하지만 외계 우주선 폭발설, 니콜라 테슬라의 비밀 실험설 등 수많은 다른 이론들도 제기되었습니다.</p>
 
-      <h2>Theories and Anomalies</h2>
-      <blockquote>They found a vast "graveyard" of scorched and flattened trees, all pointing away from a central point. But at ground zero itself, in a cruel irony, a small patch of trees remained standing, stripped of their branches and bark—the so-called "Telegraph Poles." There was no impact site. No fragments, no crater, no physical evidence that anything had hit the Earth. The object, whatever it was, had seemingly vanished in a colossal mid-air explosion.</blockquote>
-      <p>This "craterless" discovery sparked a century of speculation. The leading scientific theory is that a small asteroid or comet entered the atmosphere at high speed and exploded at an altitude of 5 to 10 kilometers, the resulting air burst causing the devastation without the main body ever hitting the ground. Other, more fringe theories have been proposed. Was it a primordial black hole passing through the Earth? An explosion of a massive underground pocket of natural gas ignited by a lightning strike? Or something even stranger?</p>
-
-      <h2>An Alien Intervention?</h2>
-      <p>Some have even speculated about an alien spacecraft exploding, perhaps one that was trying to avert a larger catastrophe. Another theory points to the experiments of Nikola Tesla, who was working on wireless energy transmission at the time. The Tunguska Event remains the largest "impact event" in recorded history, a terrifying display of cosmic power. It's a stark reminder that the universe can, without warning, unleash forces beyond our comprehension, leaving behind only flattened forests and a perfect, confounding mystery.</p>
+      <blockquote>
+        <h3>🔍 당신의 생각은?</h3>
+        <p>퉁구스카 대폭발의 원인은 무엇일까요? 단순한 자연 현상일까요, 아니면 인류가 아직 이해하지 못하는 미지의 힘이 개입된 사건일까요? 여러분의 가설을 공유해주세요.</p>
+      </blockquote>
     `,
     imageId: 'post-10',
     featured: false,

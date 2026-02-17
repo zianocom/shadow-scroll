@@ -76,7 +76,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </div>
 
           <div
-            className="prose prose-invert prose-lg max-w-3xl mx-auto prose-headings:font-headline prose-headings:text-primary prose-h2:mt-12 prose-h2:mb-6 prose-a:text-accent hover:prose-a:underline prose-blockquote:border-l-primary prose-blockquote:bg-muted/20 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-foreground/80"
+            className="prose prose-invert prose-lg max-w-none font-body prose-p:leading-relaxed prose-headings:font-headline prose-headings:text-primary prose-headings:border-b-2 prose-headings:border-primary/50 prose-headings:pb-4 prose-h2:mt-12 prose-h2:mb-6 prose-a:text-accent hover:prose-a:underline prose-blockquote:bg-card prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-blockquote:shadow-lg prose-blockquote:not-italic prose-strong:text-foreground/90 prose-table:w-full prose-table:border-collapse prose-thead:bg-primary/80 prose-thead:text-primary-foreground prose-th:p-3 prose-th:border prose-th:border-border prose-td:p-3 prose-td:border prose-td:border-border prose-tr:bg-card even:prose-tr:bg-background"
             dangerouslySetInnerHTML={{ __html: article.content }}
           />
         </div>
