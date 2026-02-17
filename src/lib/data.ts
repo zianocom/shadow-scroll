@@ -84,7 +84,7 @@ const articles: Article[] = [
     title: 'The Last Transmission',
     author: 'Emily White',
     publishedDate: 'October 15, 2023',
-    excerpt: '심우주 화물선에서 단 한 번의 비명이 들려온 후 통신이 두절됩니다. 구조대가 발견한 것은 깨끗한 함선과, 선원들의 기억을 하나씩 지워 존재 자체를 소멸시키는 미지의 '화물'이었습니다.',
+    excerpt: "심우주 화물선에서 단 한 번의 비명이 들려온 후 통신이 두절됩니다. 구조대가 발견한 것은 깨끗한 함선과, 선원들의 기억을 하나씩 지워 존재 자체를 소멸시키는 미지의 '화물'이었습니다.",
     content: `
       <blockquote>
         <strong>⚠️ 사건 파일 #2281-LT:</strong> 심우주 화물선 '오디세이'호의 마지막 통신 기록. 6초간의 비명, 그리고 영원한 침묵. 그 비명은 메시지가 아니라, 초대장이었습니다.
