@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BookMarked } from 'lucide-react';
+import { ThemeSwitcher } from '../theme-switcher';
 
 export default function Header() {
   return (
@@ -9,23 +10,26 @@ export default function Header() {
           <BookMarked className="h-6 w-6" />
           Shadow Scroll
         </Link>
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <Link href="/" className="text-foreground/60 transition-colors hover:text-foreground/80">
-            Home
-          </Link>
-          <Link href="/blog" className="text-foreground/60 transition-colors hover:text-foreground/80">
-            Blog
-          </Link>
-          <Link href="/gallery" className="text-foreground/60 transition-colors hover:text-foreground/80">
-            Gallery
-          </Link>
-          <Link href="/about" className="text-foreground/60 transition-colors hover:text-foreground/80">
-            About
-          </Link>
-          <Link href="/contact" className="text-foreground/60 transition-colors hover:text-foreground/80">
-            Contact
-          </Link>
-        </nav>
+        <div className="flex items-center space-x-6">
+          <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+            <Link href="/" className="text-foreground/60 transition-colors hover:text-foreground/80">
+              Home
+            </Link>
+            <Link href="/blog" className="text-foreground/60 transition-colors hover:text-foreground/80">
+              Blog
+            </Link>
+            <Link href="/gallery" className="text-foreground/60 transition-colors hover:text-foreground/80">
+              Gallery
+            </Link>
+            <Link href="/about" className="text-foreground/60 transition-colors hover:text-foreground/80">
+              About
+            </Link>
+            <Link href="/contact" className="text-foreground/60 transition-colors hover:text-foreground/80">
+              Contact
+            </Link>
+          </nav>
+          <ThemeSwitcher />
+        </div>
       </div>
     </header>
   );
