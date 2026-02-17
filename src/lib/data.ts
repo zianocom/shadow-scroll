@@ -1,5 +1,5 @@
 
-import { PlaceHolderImages } from './placeholder-images';
+import { PlaceHolderImages, type ImagePlaceholder } from './placeholder-images';
 
 export type Article = {
   id: string;
@@ -36,9 +36,9 @@ const articles: Article[] = [
       <h2>2. The Ashen Veil's Folly</h2>
       <p>Abberline's investigation led him away from the grimy streets and into the opulent drawing rooms of London's elite. He discovered a secret occult society, the 'Ashen Veil,' who, in their arrogance, had tried to summon a being from outside of known space—a being they called 'The Collector.' Their ritual, performed during a lunar eclipse, was meant to grant them knowledge, but they made a mistake in their calculations. They didn't open a door; they shattered a mirror. What slipped through was not a god, but a fragment of it—a 'Whispering Shadow' that now drifts through the city, drawn to the brightest flames of life.</p>
 
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">How does one fight a creature made of shadow and sound? And what happens when the creature begins to notice the one man hunting it? Share your deductions in the comments.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>How does one fight a creature made of shadow and sound? And what happens when the creature begins to notice the one man hunting it?</p>
       </div>
 
       <p>But consider this: The last entry in Abberline's private journal, found years after his own mysterious disappearance, contained only a frantic sketch of a black feather and seven words: <em>"It is not erasing them. It is learning."</em></p>
@@ -58,9 +58,9 @@ const articles: Article[] = [
       <p>In 1899, the entire Blackwood family vanished from their estate without a trace. The house was locked from the inside, a dinner party sat untouched on the table, and the only clue was the diary of 10-year-old Elara. How can a family disappear from a sealed house, and what is the terrifying 'Echo Game' she describes in her final entry?</p>
 
       <h2>1. The Disgraced Historian</h2>
-      <p>Alistair Finch was a man with nothing to lose. Once a respected historian, his career was ruined by his obsession with 'historical impossibilities'—events like the Blackwood vanishing. For him, this wasn't just a cold case; it was personal. His own great-grandfather had been the last person to see the Blackwoods alive and was a suspect, a stain on his family's name. Alistair believed the answer lay in the house, a place the locals claimed was not haunted, but 'waiting'. Breaking the century-old seal, he stepped into a silence that felt heavy, suffocating. The air was thick with the dust of a hundred years, yet it was the absence of sound that was most unnerving.</p>
+      <p>Alistair Finch was a man with nothing to lose. His own great-grandfather had been the last person to see the Blackwoods alive and was a suspect, a stain on his family's name. For Alistair, this wasn't just a cold case; it was a chance to clear his name. He believed the answer lay in the house, a place the locals claimed was not haunted, but 'waiting'. Breaking the century-old seal, he stepped into a silence that felt heavy, suffocating. The air was thick with the dust of a hundred years, yet it was the absence of all sound that was most unnerving.</p>
       
-      <h2>2. The Echo Game</h2>
+      <h2>2. The Rules of the Echo Game</h2>
       <p>He found the diary in the nursery, clutched in the arms of a porcelain doll. Elara's early entries were mundane, but they grew increasingly strange. She wrote of a new game her father had taught them: the 'Echo Game.' The rule was simple: when the 'Echo' was hunting, you had to be perfectly still and fill your mind with a single, simple thought, like a nursery rhyme. It couldn't see you, she wrote, but it could hear your thoughts. If it heard a complex thought, it would find you.</p>
 
       <blockquote>
@@ -73,9 +73,9 @@ const articles: Article[] = [
       <h2>3. The Thing in Father's Skin</h2>
       <p>Alistair sat in the dead silent nursery, the diary trembling in his hands. He read the final, tear-stained entry: "<em>It's wearing Daddy's skin now, but it's wrong. It's too tall, and it smiles too much. We're all going to hide. I'm going to think about the little star. I hope it's enough.</em>" As Alistair read those words, he didn't hear a clock chime. Instead, he felt it: the abrupt and total cessation of all sound. The faint whisper of wind outside, the creak of the floorboards, even the sound of his own breathing—gone. The silence was absolute. The game had begun, and Alistair's mind, filled with a hundred complex theories, was screaming in the quiet.</p>
       
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">What is the Echo, and what became of the Blackwoods? Could Alistair survive a game where thinking is a death sentence? Share your hypothesis.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>What is the Echo, and what became of the Blackwoods? Could Alistair survive a game where thinking is a death sentence?</p>
       </div>
 
       <p>But here's a final thought: As Alistair sat frozen in the perfect silence, he noticed the last page of the diary wasn't full. Below Elara's entry, in fresh ink, were two words he didn't write: <em>"Found you."</em></p>
@@ -107,9 +107,9 @@ const articles: Article[] = [
 
       <p>As Captain Rostova and her team stared at the impossible object, her weapons officer turned to her, his expression blank. "Captain," he asked, "what is a 'weapon'?" The unraveling had begun on the Harbinger. Rostova raised her sidearm, but the thought was already slipping away. What was this object in her hand? What was she supposed to do with it?</p>
 
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Choice?</h3>
-        <p style="margin-bottom: 0;">How can you fight an enemy when it can erase the very concept of fighting? What would you do in Captain Rostova's position? Let us know your decision.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>How can you fight an enemy when it can erase the very concept of fighting? What would you do in Captain Rostova's position?</p>
       </div>
 
       <p>As the concept of 'gun' faded from Rostova's mind, a new one, alien and intrusive, began to form. It was a single, repeating image: a vast, silent library, with one empty shelf waiting to be filled.</p>
@@ -139,9 +139,9 @@ const articles: Article[] = [
       <h2>2. The Man Who Wasn't There</h2>
       <p>By questioning the official story, Kaito became a bug in the killer's program, an error to be deleted. His access cards stopped working. His bank balance flatlined. His partner of ten years looked at him with the polite confusion of a stranger. To the City of Glass, Detective Kaito Tanaka was ceasing to exist. He raced against time, a ghost in the machine, trying to find a killer who could wield reality as a weapon before he was completely erased himself. He was no longer just solving a murder; he was fighting for his own existence.</p>
       
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">How can Kaito prove a murder happened when all evidence of it has been erased from reality? And how can he prove he exists when the system says he doesn't? Post your theories below.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>How can Kaito prove a murder happened when all evidence of it has been erased from reality? And how can he prove he exists when the system says he doesn't?</p>
       </div>
       
       <p>Before his identity was completely wiped, Kaito found a hidden, encrypted file on Vance's personal server. It was a video diary. In the last entry, a terrified Vance looks directly at the camera and says, "I thought I was building a utopia. But the 'Shade Code' was just the beginning. I've discovered its purpose. It's not for covering up a crime... it's for preparing for an arrival."</p>
@@ -177,9 +177,9 @@ const articles: Article[] = [
       <h2>4. Fringe Speculation & Unanswered Questions</h2>
       <p>The bizarre details have led to more outlandish theories, including a secret Soviet weapons test, an attack by the local Mansi people (which was quickly ruled out), or an encounter with a cryptid like a Yeti or something extraterrestrial. These theories persist because the leading hypotheses don't fully explain everything. An avalanche doesn't account for the orderly footprints or the missing tongue. Infrasound doesn't explain the massive internal trauma.</p>
 
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Do you believe one of the scientific theories fits all the facts, or was something more sinister at play on Dead Mountain? Share your analysis.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Do you believe one of the scientific theories fits all the facts, or was something more sinister at play on Dead Mountain?</p>
       </div>
 
       <p>The case was closed in 1959. But in 2019, it was quietly reopened by Russian authorities. Their conclusion? A slab avalanche. A simple answer for a deeply complex case, and a conclusion that, for many who have studied the evidence, only deepens the mystery.</p>
@@ -217,9 +217,9 @@ const articles: Article[] = [
         <li><strong>Disease and Starvation:</strong> It's possible the colony was simply wiped out by a New World disease or that they starved during a severe drought, which tree-ring data from the period confirms occurred.</li>
       </ul>
 
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Do you believe the colonists simply moved and assimilated, or did something more sinister happen? Let us know what you think is the most plausible explanation.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Do you believe the colonists simply moved and assimilated, or did something more sinister happen?</p>
       </div>
 
       <p>The final, unsettling detail is in the native oral traditions. Some legends speak of a tribe on the island who could "talk with the trees." To them, was "CROATOAN" not just a place, but a power? A spirit of the land that the colonists, in their desperation, turned to for aid, and in doing so, were absorbed by it forever?</p>
@@ -252,9 +252,9 @@ const articles: Article[] = [
       <h2>3. A Cold War Spy?</h2>
       <p>Investigators thought they had their man, but Alfred Boxall was found alive, with his copy of the book intact—including the "Tamám Shud" page. The dead man was not Boxall. The nurse's strange reaction and the unbreakable code, combined with the timing at the start of the Cold War, fueled speculation that the Somerton Man was a spy. Was he poisoned by enemy agents? Did the code contain state secrets? The nurse took her secrets to the grave, and the man's identity remains one of Australia's most profound mysteries.</p>
       
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Was the Somerton Man a spy killed in the line of duty, or was it the victim of a love affair gone wrong? What do you think the code says? Share your analysis.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Was the Somerton Man a spy killed in the line of duty, or was it the victim of a love affair gone wrong? What do you think the code says?</p>
       </div>
 
       <p>In 2022, a researcher claimed to have used DNA to identify the man as Carl "Charles" Webb, an electrical engineer. However, this identification has not been officially confirmed by authorities. Even if we have a name, it answers none of the critical questions: Why was he there? How did he die? And what is the meaning of the still-unbroken code?</p>
@@ -287,9 +287,9 @@ const articles: Article[] = [
       <h2>3. The Exploding Cargo</h2>
       <p>In the most popular version of the tale, the boarding party felt an extreme chill coming from the cargo hold. They decided to tow the ghost ship to port, but as they attached the line, smoke began billowing from below deck. The party scrambled back to their ship just as the Ourang Medan exploded with such force that it was lifted from the water before sinking without a trace. This has led to the leading hypothesis: the ship was smuggling unregistered, hazardous materials, perhaps nitroglycerin or even nerve agents developed during WWII, which leaked and suffocated the crew before exploding.</p>
       
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Is the story of the Ourang Medan a complete fabrication, or is it a fictionalized account of a real, secret tragedy? What could have killed the crew with fear before the ship conveniently exploded? Share your thoughts.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Is the story of the Ourang Medan a complete fabrication, or is it a fictionalized account of a real, secret tragedy? What could have killed the crew with fear before the ship conveniently exploded?</p>
       </div>
       
       <p>One final, unsettling thought: "Ourang Medan" translates from Malay to "Man from Medan." What if it wasn't the name of the ship, but a description of the cargo?</p>
@@ -323,9 +323,9 @@ const articles: Article[] = [
       <p>The official explanation was that the men were swept away by a freak rogue wave while tending to equipment near the cliffs. This would explain why two men might rush out without their coats to help a third. But it doesn't account for the untouched meal, the logbook entries describing a phantom storm, or why a seasoned keeper would be weeping in terror.</p>
       <p>Other theories suggest a fight broke out, or that one keeper went mad and was subdued by the others. But the most enduring speculation is that the men saw something in the water during the "storm that wasn't a storm"—something that terrified them so much that they abandoned their post, leading to their demise in the churning sea.</p>
 
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Was it a rogue wave, a descent into madness, or did the keepers encounter something unnatural that the logbook only hinted at? Let us know what you think happened.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Was it a rogue wave, a descent into madness, or did the keepers encounter something unnatural that the logbook only hinted at?</p>
       </div>
 
       <p>A final piece of the puzzle is a poem written years later by Wilfrid Wilson Gibson, inspired by the event. In it, he imagines the final moments, where one keeper looks out and sees "a great, dark bird" and then "a great, dark hand." Was this poetic license, or was it inspired by local legends the keepers might have known?</p>
@@ -363,9 +363,9 @@ const articles: Article[] = [
       </ul>
       <p>However, these theories don't fully account for the story of a subterranean land or the unknown language. More fantastical theories propose that the children were aliens, or that they had accidentally stumbled through a portal from another dimension or a world beneath our own.</p>
       
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Was this a distorted account of lost and malnourished children, or does the story hide a more extraordinary truth about a world hidden from our own? Share your perspective.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Was this a distorted account of lost and malnourished children, or does the story hide a more extraordinary truth about a world hidden from our own?</p>
       </div>
 
       <p>A lingering detail is the name of their home: St. Martin's Land. St. Martin of Tours is a patron saint often associated with charity to outsiders and strangers. Was the girl's story a confused memory, or a clever allegory for being lost and taken in by strangers in a foreign land?</p>
@@ -398,9 +398,9 @@ const articles: Article[] = [
         <li><strong>Alien Craft / Weapon:</strong> The most popular fringe theory is that the explosion was a crashing alien spaceship or the test of an extraterrestrial weapon.</li>
       </ul>
 
-      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
-        <h3 style="margin-top: 0;">What's Your Theory?</h3>
-        <p style="margin-bottom: 0;">Is the scientific airburst theory sufficient to explain the event, or do the strange atmospheric effects and lack of fragments suggest something more exotic? Let us know your thoughts.</p>
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Is the scientific airburst theory sufficient to explain the event, or do the strange atmospheric effects and lack of fragments suggest something more exotic?</p>
       </div>
 
       <p>Here is one final, strange fact: In 2020, scientists studying microscopic rock samples from the Tunguska region found that their composition doesn't perfectly match known meteorites, asteroids, or comets. While this doesn't disprove the airburst theory, it does mean that the object that caused the explosion may have been of a type we have not yet encountered.</p>
@@ -408,14 +408,53 @@ const articles: Article[] = [
     imageId: 'post-10',
     featured: false,
   },
+  {
+    id: '12',
+    slug: 'the-mary-celeste-enigma',
+    title: 'The Mary Celeste Enigma',
+    author: 'Captain Briggs',
+    publishedDate: 'October 27, 2023',
+    excerpt: `A perfectly seaworthy ship is found adrift with its cargo intact, the crew's breakfast half-eaten, but not a single soul on board. What terror could make ten people vanish from the middle of the ocean?`,
+    content: `
+      <div class="article-tag">Based on Real Events</div>
+      <p>In December 1872, the brigantine Mary Celeste was discovered adrift in the Atlantic Ocean, unmanned and yet perfectly seaworthy. The crew of ten, including the captain, his wife, and their two-year-old daughter, had vanished without a trace. Why would an experienced crew abandon a perfectly sound ship in the middle of the vast ocean?</p>
+
+      <h2>1. Fact: The Ghost Ship</h2>
+      <p>The vessel was spotted by the crew of the Dei Gratia, who found it sailing erratically. Upon boarding, they found an eerie scene. The ship was in good condition, its cargo of 1,701 barrels of denatured alcohol was untouched, and the crew's personal belongings were still in their quarters. A six-month supply of food and water was on board. However, the ship's single lifeboat was missing, along with the ship's chronometer and sextant.</p>
+      
+      <blockquote>
+        <strong>Captain's Log:</strong><br>
+        The last entry in the ship's log was dated ten days prior to the discovery. It recorded no unusual events, noting the ship's position and the calm weather. It was as if the crew had vanished mid-voyage.
+      </blockquote>
+
+      <h2>2. Hypothesis: The Fume Theory</h2>
+      <p>The leading scientific theory suggests that the crew abandoned the ship in a panic, fearing an imminent explosion from the alcohol cargo. Nine of the 1,701 barrels were found empty. It's theorized that alcohol fumes could have built up in the hold, leading the captain to order an evacuation as a precaution. They may have boarded the lifeboat, trailing the Mary Celeste with a towline, intending to return once the danger passed. A sudden storm or a snapped rope would have left them stranded in the open ocean.</p>
+      
+      <h2>3. Speculation: The Unexplained</h2>
+      <p>The neatness of the ship and the lack of any signs of struggle have led to more fantastic theories. These range from mutiny and pirate attacks (unlikely, as nothing was stolen) to seaquakes, giant squid attacks, or even alien abduction. None of these theories, however, fully explains the selective removal of the lifeboat and navigational equipment.</p>
+
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+        <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+        <p>Was it a rational, if tragically failed, evacuation, or were the crew of the Mary Celeste victims of something far more sinister and unknown?</p>
+      </div>
+
+      <p>But one detail still puzzles researchers: The ship's cargo of alcohol was denatured, meaning it was not as flammable as is often assumed. An experienced captain would have known this. It wasn't an explosion they fled from. It was something that made them believe abandoning their ship in a tiny boat, in the middle of the vast Atlantic, was the safer option.</p>
+    `,
+    imageId: 'post-11',
+    featured: false,
+  },
 ];
 
-const getImageForArticle = (article: Article) => {
+const getImageForArticle = (article: Article): { imageUrl: string; imageHint: string; imageDescription: string } => {
   const image = PlaceHolderImages.find(p => p.id === article.imageId);
+  // The 'picsum.photos' service can sometimes be unreliable. 
+  // A more robust solution might involve a different image placeholder service or self-hosted assets.
+  const fallbackImageUrl = `https://picsum.photos/seed/${article.slug}/600/400`;
+  
   return {
-    imageUrl: image?.imageUrl ?? "https://picsum.photos/seed/placeholder/600/400",
-    imageHint: image?.imageHint ?? "placeholder",
-    imageDescription: image?.description ?? "placeholder image"
+    imageUrl: image?.imageUrl ?? fallbackImageUrl,
+    imageHint: image?.imageHint ?? "mystery",
+    imageDescription: image?.description ?? "A mysterious image related to the article topic."
   }
 }
 
