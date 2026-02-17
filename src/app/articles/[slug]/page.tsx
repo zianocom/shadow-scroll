@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
           url: article.imageUrl,
           width: 1200,
           height: 630,
-          alt: article.title,
+          alt: article.imageDescription,
         },
       ],
     },

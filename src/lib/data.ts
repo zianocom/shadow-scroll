@@ -178,7 +178,7 @@ const articles: Article[] = [
     excerpt: `Nine experienced hikers are found dead in the Ural Mountains. Their tent was ripped open from the inside, and they fled into a -30°C blizzard without shoes. Why did they run, and what caused their bizarre, catastrophic injuries?`,
     content: `
       <div class="article-tag">Based on Real Events</div>
-      <p>In February 1959, nine Soviet hikers died under bizarre circumstances in the Ural Mountains. Investigators found their tent sliced open from the inside, and the hikers, who had fled into the frozen night without proper gear, had suffered inexplicable injuries, including crushed ribs and a missing tongue. What terrifying force caused these experienced mountaineers to abandon their only shelter and walk calmly to their doom?</p>
+      <p>In February 1959, nine Soviet hikers died under bizarre circumstances in the Ural Mountains. What terrifying force caused these experienced mountaineers to abandon their only shelter and walk calmly to their doom?</p>
 
       <h2>1. Confirmed Facts: The Scene</h2>
       <p>On the night of February 1st, the group, led by Igor Dyatlov, pitched their tent on the slopes of Kholat Syakhl, the "Dead Mountain." This was their last known action. Weeks later, search parties found the abandoned tent, ripped open from within. Footprints led away from the camp, but they were the prints of people walking, not running, in socks or bare feet. The first five bodies were found scattered down the slope, dead of hypothermia. They were dressed in their sleepwear in -30°C temperatures.</p>
@@ -472,7 +472,7 @@ const articles: Article[] = [
     excerpt: `In 1915, an entire company of 267 soldiers marched into a strange, motionless cloud on a battlefield. Most were later found dead. But 80 of them were never seen again. Where did they go?`,
     content: `
       <div class="article-tag">Based on Real Events</div>
-      <p>On August 12, 1915, during the brutal Gallipoli campaign, an entire company of 267 British soldiers from the 1/5th Norfolk Regiment advanced on a strategic hill. They were seen marching into a strange, low-hanging cloud. They never came out. Most were later found dead, but 80 of them vanished without a trace. What happened inside that cloud on Hill 60?</p>
+      <p>On August 12, 1915, during the brutal Gallipoli campaign, an entire company of 267 British soldiers from the 1/5th Norfolk Regiment advanced on a strategic hill. They were seen marching into a strange, low-hanging cloud. They never came out. What happened inside that cloud on Hill 60?</p>
 
       <h2>1. Confirmed Facts: The Lost Company</h2>
       <p>The unit, known as the Sandringham Company, was comprised of men from the King's estate at Sandringham. On that fateful day, their objective was a fortified Turkish position on Hill 60. Historical records confirm their advance. They pushed forward into the chaotic landscape of battle, thick with smoke, dust, and the fog of war. And then, communication ceased. They were officially listed as missing.</p>
