@@ -35,13 +35,23 @@ const articles: Article[] = [
 
       <h2>2. The Ashen Veil's Folly</h2>
       <p>Abberline's investigation led him away from the grimy streets and into the opulent drawing rooms of London's elite. He discovered a secret occult society, the 'Ashen Veil,' who, in their arrogance, had tried to summon a being from outside of known space—a being they called 'The Collector.' Their ritual, performed during a lunar eclipse, was meant to grant them knowledge, but they made a mistake in their calculations. They didn't open a door; they shattered a mirror. What slipped through was not a god, but a fragment of it—a 'Whispering Shadow' that now drifts through the city, drawn to the brightest flames of life.</p>
+      <p>The creature operates on a logic alien to human understanding. It doesn't perceive matter, only consciousness. It is drawn to vivid memories, strong emotions, and complex thoughts. The more vibrant a person's inner world, the more 'visible' they are to the Shadow. This is why it targeted a boisterous dockworker and a high-society debutante—their lives were filled with rich experiences. Abberline, with his obsessive, analytical mind, was becoming a beacon.</p>
 
+      <h2>3. The Rules of the Unseen</h2>
+      <p>Through fragmented occult texts, Abberline learned the terrible truth. The Shadow doesn't have a physical form; it's a localized absence of reality. To be 'seen' by it is to have your existence questioned. The 'whispering' is the sound of your own timeline being rewritten. The Ashen Veil believed they could control it, but they were merely moths drawn to a flame that consumed not just their wings, but their very concept.</p>
+      <ul>
+        <li><strong>Rule 1:</strong> It is drawn to complex consciousness. The more you think, the louder you scream in its world.</li>
+        <li><strong>Rule 2:</strong> It cannot be physically fought. How do you punch a hole in reality?</li>
+        <li><strong>Rule 3:</strong> Its 'feathers' are not trophies; they are anchors. Each one is a tiny piece of its dimension, grounding it in ours.</li>
+      </ul>
+      <p>As Abberline pieced this together, he realized the Ashen Veil's leader was still at large, not a victim but a collaborator, hoping to gain power by feeding the entity. The final confrontation would not be in an alley, but in a battle of wills, a struggle for the integrity of one's own soul.</p>
+      
       <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
         <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
         <p>How does one fight a creature made of shadow and sound? And what happens when the creature begins to notice the one man hunting it?</p>
       </div>
 
-      <p>But consider this: The last entry in Abberline's private journal, found years after his own mysterious disappearance, contained only a frantic sketch of a black feather and seven words: <em>"It is not erasing them. It is learning."</em></p>
+      <p>The last entry in Abberline's private journal, found years after his own mysterious disappearance, contained only a frantic sketch of a black feather and seven words: <em>"It is not erasing them. It is learning."</em></p>
     `,
     imageId: 'featured-mystery',
     featured: true,
@@ -59,6 +69,7 @@ const articles: Article[] = [
 
       <h2>1. The Disgraced Historian</h2>
       <p>Alistair Finch was a man with nothing to lose. His own great-grandfather had been the last person to see the Blackwoods alive and was a suspect, a stain on his family's name. For Alistair, this wasn't just a cold case; it was a chance to clear his name. He believed the answer lay in the house, a place the locals claimed was not haunted, but 'waiting'. Breaking the century-old seal, he stepped into a silence that felt heavy, suffocating. The air was thick with the dust of a hundred years, yet it was the absence of all sound that was most unnerving.</p>
+      <p>He documented everything. The half-eaten meal wasn't just left; it was arranged as if for a photograph, a grotesque still life. A rocking horse in the nursery was still gently swaying, though no breeze could have touched it. This wasn't a scene of panic; it was a scene of dreadful, deliberate stillness.</p>
       
       <h2>2. The Rules of the Echo Game</h2>
       <p>He found the diary in the nursery, clutched in the arms of a porcelain doll. Elara's early entries were mundane, but they grew increasingly strange. She wrote of a new game her father had taught them: the 'Echo Game.' The rule was simple: when the 'Echo' was hunting, you had to be perfectly still and fill your mind with a single, simple thought, like a nursery rhyme. It couldn't see you, she wrote, but it could hear your thoughts. If it heard a complex thought, it would find you.</p>
@@ -69,6 +80,7 @@ const articles: Article[] = [
         <br><br>
         "<em>November 5th: Cook thought about her daughter's wedding dress. The Echo found her in the pantry. Now she's one of the Quiet Ones. She doesn't speak anymore.</em>"
       </blockquote>
+      <p>The 'Quiet Ones' were mentioned repeatedly. Alistair realized with a jolt of horror they weren't dead. They were still in the house, hollowed-out shells, trapped in a single, looping thought for eternity. They were the echoes.</p>
       
       <h2>3. The Thing in Father's Skin</h2>
       <p>Alistair sat in the dead silent nursery, the diary trembling in his hands. He read the final, tear-stained entry: "<em>It's wearing Daddy's skin now, but it's wrong. It's too tall, and it smiles too much. We're all going to hide. I'm going to think about the little star. I hope it's enough.</em>" As Alistair read those words, he didn't hear a clock chime. Instead, he felt it: the abrupt and total cessation of all sound. The faint whisper of wind outside, the creak of the floorboards, even the sound of his own breathing—gone. The silence was absolute. The game had begun, and Alistair's mind, filled with a hundred complex theories, was screaming in the quiet.</p>
@@ -101,11 +113,15 @@ const articles: Article[] = [
         <strong>Final entry from the Odyssey's medical officer:</strong><br>
         "It's an information parasite. It consumes experience. The more complex the memory, the more it 'feeds.' It has taken our childhoods, our loves, our art. We are becoming blank slates. I am looking at my medical degree, and I no longer know what the words mean. The final irony: soon, we will forget we are afraid."
       </blockquote>
+      <p>Rostova's team found the crew. They were alive, but not living. They sat in their chairs, staring blankly at consoles, their minds wiped clean. They were empty vessels, their collective experiences consumed, leaving nothing but biological machines.</p>
 
       <h2>2. The Collector</h2>
       <p>In the cargo hold, they found the source. The manifest said Helium-3, but the container held something else: a lattice of black crystal and fractured light that seemed to fold in on itself. It wasn't matter; it was a physical representation of a multi-dimensional equation, and it was radiating a low-frequency signal—a 'mathematical formula for madness' that was slowly erasing the ship's computer core. It was a 'Collector' of consciousness.</p>
 
       <p>As Captain Rostova and her team stared at the impossible object, her weapons officer turned to her, his expression blank. "Captain," he asked, "what is a 'weapon'?" The unraveling had begun on the Harbinger. Rostova raised her sidearm, but the thought was already slipping away. What was this object in her hand? What was she supposed to do with it?</p>
+      
+      <h2>3. The Logic of the Void</h2>
+      <p>The entity didn't operate on malice, but on a form of hunger. It fed on complex, structured information: a memory of a first kiss, the knowledge of quantum physics, the muscle memory of a skilled pilot. Simple, primal feelings like fear were like empty calories, so it consumed the ability to feel fear last. The rescue team, with their advanced training and complex problem-solving skills, were a feast. The 'scream' in the final transmission wasn't terror. It was the sound of a mind being forcibly emptied of its entire existence in a single moment.</p>
 
       <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
         <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
@@ -135,10 +151,14 @@ const articles: Article[] = [
         <strong>Investigator's Note:</strong><br>
         The official recording of Vance's death is perfect. Too perfect. The ambient temperature doesn't fluctuate. The dust motes in the air move in a clean, repeating loop. It's not a recording of reality. It's a perfect simulation. The killer created a version of events where the murder never happened.
       </blockquote>
-
+      
       <h2>2. The Man Who Wasn't There</h2>
       <p>By questioning the official story, Kaito became a bug in the killer's program, an error to be deleted. His access cards stopped working. His bank balance flatlined. His partner of ten years looked at him with the polite confusion of a stranger. To the City of Glass, Detective Kaito Tanaka was ceasing to exist. He raced against time, a ghost in the machine, trying to find a killer who could wield reality as a weapon before he was completely erased himself. He was no longer just solving a murder; he was fighting for his own existence.</p>
-      
+      <p>The Shade Code wasn't just deleting him; it was overwriting him with a new, mundane narrative. He found old records of his life changing. A commendation for bravery became a reprimand for recklessness. His deceased wife was now listed as having divorced him. The system wasn't just killing him; it was making his life retroactively worse, a final, cruel insult.</p>
+
+      <h2>3. The Architect's Ghost</h2>
+      <p>Kaito realized that Vance must have known about this vulnerability. He couldn't leave a direct message, as the killer could simply erase it. Instead, he hid his warning in the one place a reality-altering code couldn't touch: the system's core error logs. Vance had intentionally triggered thousands of tiny, insignificant errors in the weeks before his death, creating a pattern. When decoded, the pattern formed a message, a single address in the city's abandoned substructure.</p>
+
       <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
         <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
         <p>How can Kaito prove a murder happened when all evidence of it has been erased from reality? And how can he prove he exists when the system says he doesn't?</p>
@@ -164,18 +184,18 @@ const articles: Article[] = [
       <p>On the night of February 1st, the group, led by Igor Dyatlov, pitched their tent on the slopes of Kholat Syakhl, the "Dead Mountain." This was their last known action. Weeks later, search parties found the abandoned tent, ripped open from within. Footprints led away from the camp, but they were the prints of people walking, not running, in socks or bare feet. The first five bodies were found scattered down the slope, dead of hypothermia. They were dressed in their sleepwear in -30°C temperatures.</p>
 
       <h2>2. Confirmed Facts: The Bodies</h2>
-      <p>Two months later, the remaining four hikers were found in a ravine, and the true mystery began. These four had suffered horrific internal injuries. One had a fractured skull, and two others had chest fractures consistent with the force of a car crash, yet there were no external wounds. One of the women was missing her tongue, eyes, and part of her lips. Furthermore, traces of radiation were found on some of their clothing.</p>
+      <p>Two months later, the remaining four hikers were found in a ravine, and the true mystery began. These four had suffered horrific internal injuries. One had a fractured skull, and two others had chest fractures consistent with the force of a car crash, yet there were no external wounds. One of the women, Lyudmila Dubinina, was missing her tongue, eyes, and part of her lips. Furthermore, traces of radiation were found on some of their clothing.</p>
 
       <h2>3. Leading Scientific Hypotheses</h2>
       <p>The official Soviet investigation concluded that an "unknown compelling natural force" caused the deaths. Modern theories are more specific:</p>
       <ul>
-        <li><strong>Slab Avalanche:</strong> A small, delayed avalanche could have covered the tent, causing the internal injuries and forcing the hikers to cut their way out in a panic. Disoriented and hypothermic, they succumbed to the elements.</li>
+        <li><strong>Slab Avalanche:</strong> A small, delayed avalanche could have covered the tent, causing the internal injuries and forcing the hikers to cut their way out in a panic. Disoriented and hypothermic, they succumbed to the elements. This is the most widely accepted theory.</li>
         <li><strong>Katabatic Winds:</strong> Intense, hurricane-force winds could have created a terrifyingly loud noise, inducing panic.</li>
         <li><strong>Infrasound:</strong> Certain wind conditions can create very low-frequency sounds (infrasound) that can induce feelings of nausea, panic, and dread in humans, potentially causing them to flee irrationally.</li>
       </ul>
 
       <h2>4. Fringe Speculation & Unanswered Questions</h2>
-      <p>The bizarre details have led to more outlandish theories, including a secret Soviet weapons test, an attack by the local Mansi people (which was quickly ruled out), or an encounter with a cryptid like a Yeti or something extraterrestrial. These theories persist because the leading hypotheses don't fully explain everything. An avalanche doesn't account for the orderly footprints or the missing tongue. Infrasound doesn't explain the massive internal trauma.</p>
+      <p>The bizarre details have led to more outlandish theories, including a secret Soviet weapons test, an attack by the local Mansi people (which was quickly ruled out), or an encounter with a cryptid like a Yeti or something extraterrestrial. These theories persist because the leading hypotheses don't fully explain everything. An avalanche doesn't account for the orderly footprints or the missing tongue (scavengers are a possibility, but why only the tongue?). Infrasound doesn't explain the massive internal trauma.</p>
 
       <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
         <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
@@ -441,6 +461,51 @@ const articles: Article[] = [
       <p>But one detail still puzzles researchers: The ship's cargo of alcohol was denatured, meaning it was not as flammable as is often assumed. An experienced captain would have known this. It wasn't an explosion they fled from. It was something that made them believe abandoning their ship in a tiny boat, in the middle of the vast Atlantic, was the safer option.</p>
     `,
     imageId: 'post-11',
+    featured: false,
+  },
+  {
+    id: '13',
+    slug: 'the-sandringham-80',
+    title: 'The Sandringham 80: The Soldiers Who Never Came Back',
+    author: 'Julian Blackwood',
+    publishedDate: 'October 27, 2023',
+    excerpt: `In 1915, an entire company of 267 soldiers marched into a strange, motionless cloud on a battlefield. Most were later found dead. But 80 of them were never seen again. Where did they go?`,
+    content: `
+      <div class="article-tag">Based on Real Events</div>
+      <p>On August 12, 1915, during the brutal Gallipoli campaign, an entire company of 267 British soldiers from the 1/5th Norfolk Regiment advanced on a strategic hill. They were seen marching into a strange, low-hanging cloud. They never came out. Most were later found dead, but 80 of them vanished without a trace. What happened inside that cloud on Hill 60?</p>
+
+      <h2>1. Confirmed Facts: The Lost Company</h2>
+      <p>The unit, known as the Sandringham Company, was comprised of men from the King's estate at Sandringham. On that fateful day, their objective was a fortified Turkish position on Hill 60. Historical records confirm their advance. They pushed forward into the chaotic landscape of battle, thick with smoke, dust, and the fog of war. And then, communication ceased. They were officially listed as missing.</p>
+
+      <h2>2. The Legend of the Cloud</h2>
+      <p>For years, the world assumed they were killed in action, their bodies lost to the battlefield. But a bizarre testimony, filed 50 years later in 1965 by three New Zealand sappers who claimed to have witnessed the event, painted a much stranger picture. They described seeing a group of "eight loaf-shaped clouds" hovering over Hill 60, despite a prevailing wind. One of these clouds descended onto the battlefield.</p>
+
+      <blockquote>
+        <strong>From the 1965 testimony of the New Zealand Sappers:</strong><br>
+        "This cloud was absolutely dense, and it was noticed that in spite of a strong wind... it did not alter its position. The regiment of several hundred men marched up the sunken road and into the cloud. They did not emerge... After about an hour, the cloud... lifted and dispersed. There was no trace of the troops."
+      </blockquote>
+      <p>Critics dismiss this as a modern myth, perhaps influenced by the rise of UFO culture in the 1960s. But if it was just a story, the core mystery remains: where did the men go?</p>
+
+      <h2>3. The Grim Discovery</h2>
+      <p>The first concrete answer came four years after the battle. In 1919, after the armistice, a British military chaplain found 180 bodies in a ravine behind Turkish lines. A local Turkish farmer admitted to finding the decomposing bodies on his land and throwing them into the gully. The chaplain wrote, "They were mopped up one by one." He confirmed their regimental insignia: the lost 1/5th Norfolks.</p>
+
+      <h2>4. The Unanswered Question: The Sandringham 80</h2>
+      <p>This discovery solved part of the mystery but created an even bigger one. The chaplain counted 180 bodies. But 267 men had marched into battle. After every body was counted, approximately 80 soldiers were still unaccounted for. Not then. Not now. Not ever. The cloud may be a legend, but the 80 missing men are a historical fact.</p>
+
+      <h2>5. Competing Theories</h2>
+      <ul>
+          <li><strong>The Official Explanation:</strong> The most widely accepted theory is that the 80 men were not with the main group found in 1919. They were likely killed in action elsewhere, their bodies lost, captured and executed, or buried in unmarked mass graves by the Turks—a common fate in the brutal chaos of Gallipoli.</li>
+          <li><strong>The "Vanishing" Theory:</strong> The 1965 testimony, however fantastical, cannot be entirely dismissed. Did the soldiers witness a bizarre, natural atmospheric phenomenon that caused disorientation and separated the company? Or does the story of the cloud hide a more extraordinary truth, a secret event that defies conventional explanation?</li>
+      </ul>
+
+      <div style="background-color: #f4f4f4; padding: 25px; border-radius: 8px; margin: 30px 0; border: 1px solid #ddd; text-align: center;">
+          <h3 style="font-size: 20px; color: #333; margin-bottom: 15px;">🔍 Your Analysis?</h3>
+          <p>Were the Sandringham 80 simply unrecovered casualties of a brutal war, or did they truly march into the unknown?</p>
+      </div>
+
+      <p>The final, unsettling thought is this: while many of the fallen were identified, the body of the company's leader, Captain Frank Beck, was never found among the 180. The leader of the men who marched into the cloud remains, like 80 of his soldiers, officially missing, his fate sealed by whatever happened on that mysterious hill.</p>
+    `,
+    imageId: 'post-12',
     featured: false,
   },
 ];
