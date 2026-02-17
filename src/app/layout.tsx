@@ -5,7 +5,7 @@ import Footer from '@/components/layout/footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Shadow Scroll',
+  title: 'Mysteries of the Void',
   description: 'A mystery storytelling blog with a cinematic feel.',
 };
 
