@@ -4,7 +4,7 @@ import { PlaceHolderImages } from './placeholder-images';
 export type Article = {
   id: string;
   slug: string;
-  title: string;
+  title:string;
   author: string;
   publishedDate: string;
   excerpt: string;
@@ -20,28 +20,28 @@ const articles: Article[] = [
     title: 'The Whispering Shadow',
     author: 'Jane Doe',
     publishedDate: 'October 26, 2023',
-    excerpt: "In the shadow of the Ripper, a new terror emerges. It leaves no marks, only a face frozen in fear and a single black feather. This is not a human. It's an echo from another dimension.",
+    excerpt: `In a London terrorized by the Ripper, a new predator emerges. It leaves no mark, takes no life, but erases its victims from existence. What is the entity that hunts not the body, but the soul itself?`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1888-WS:</strong> In a London still reeling from Jack the Ripper's reign, a series of 'existential vanishings' plunges the city into a new panic. The only clue left behind: a single black feather.
-      </blockquote>
-      <p>The year is 1888. London is a city holding its breath, not from the rain, but from fear. The gas lamps of Whitechapel flickered, casting long, dancing shadows that seemed alive. The Ripper's spree had scarred the city's soul, but as a thick, unnatural autumn fog rolled through the alleys, a more insidious terror began to seep in. This is not a story of a man with a knife. It's the record of 'something' that doesn't kill—it erases.</p>
-      
-      <h2>1. The Feather and The Fear 😨</h2>
-      <p>It began subtly. A dockworker found slumped in a grimy alley, his eyes wide with a horror no mortal threat could explain. A week later, a socialite was discovered in her locked mansion, untouched, yet her face was a mask of petrified terror. No violence, no poison. The only clue: a single, impossible object left at the scene—a raven-black feather.</p>
+      <div class="article-tag">Fiction</div>
+      <p>In the gaslit alleys of 1888 London, a horror worse than Jack the Ripper is stalking the streets. It doesn’t leave a body, only a hollow space where a person used to be. The only clue is a single, impossible black feather. What kind of entity can erase a person from reality, and who will be its next victim?</p>
+
+      <h2>1. A Fear Colder Than Death</h2>
+      <p>The first victim was a dockworker, found not dead, but empty. His eyes were wide with a terror no mortal threat could inspire. A week later, a socialite vanished from her locked mansion, her room untouched. The official cause of death was listed as 'acute shock,' a cowardly lie to placate a city on the edge of panic. Inspector Frederick Abberline, already haunted by the Ripper case, knew this was different. The silence in those rooms was a tangible void, a scar left on reality where a soul had been violently torn away.</p>
       
       <blockquote>
-        <strong>🕵️ Inspector Frederick Abberline's Notes:</strong><br>
-        The official coroner's report reads 'death by acute shock'. A lie to calm the public. I felt it. The emptiness in that room was colder than any tomb, a void where a soul had been violently ripped out.
+        <strong>Inspector's Log:</strong><br>
+        This is not the work of a man. The reports speak of a 'whispering' sound just before the disappearances, a sound that doesn't travel through the air, but through the mind. The single black feather left at each scene is cold to the touch, and seems to absorb the light around it. It feels ancient.
       </blockquote>
 
-      <h2>2. The Unseen Predator 👽</h2>
-      <p>Hunting the 'Whispering Shadow,' as the press called it, Abberline descended into a world of secret societies and forbidden knowledge. He learned that a wealthy occult circle, the 'Ashen Veil,' had attempted to summon a being they called 'The Collector' to grant them immortality. The ritual failed. They didn't open a door; they shattered a mirror. What came through was not a being, but an echo—a fragment of pure, hungry chaos. It now roamed the city, harvesting the brightest sparks of life, leaving only empty shells behind.</p>
+      <h2>2. The Ashen Veil's Folly</h2>
+      <p>Abberline's investigation led him away from the grimy streets and into the opulent drawing rooms of London's elite. He discovered a secret occult society, the 'Ashen Veil,' who, in their arrogance, had tried to summon a being from outside of known space—a being they called 'The Collector.' Their ritual, performed during a lunar eclipse, was meant to grant them knowledge, but they made a mistake in their calculations. They didn't open a door; they shattered a mirror. What slipped through was not a god, but a fragment of it—a 'Whispering Shadow' that now drifts through the city, drawn to the brightest flames of life.</p>
 
-      <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>What was the 'Whispering Shadow'? A simple superstition, or did a being from another dimension truly stalk the streets of London? Share your deductions in the comments!</p>
-      </blockquote>
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">How does one fight a creature made of shadow and sound? And what happens when the creature begins to notice the one man hunting it? Share your deductions in the comments.</p>
+      </div>
+
+      <p>But consider this: The last entry in Abberline's private journal, found years after his own mysterious disappearance, contained only a frantic sketch of a black feather and seven words: <em>"It is not erasing them. It is learning."</em></p>
     `,
     imageId: 'featured-mystery',
     featured: true,
@@ -52,28 +52,33 @@ const articles: Article[] = [
     title: 'Echoes of the Manor',
     author: 'John Smith',
     publishedDate: 'October 21, 2023',
-    excerpt: "A family vanished from their manor 100 years ago. The dinner table was still set, and a young daughter's diary chronicles a deadly game of hide-and-seek with 'something wearing her father's skin.'",
+    excerpt: `A family vanished from their locked manor 100 years ago, leaving dinner on the table. The only clue is a young girl's diary detailing a deadly game of hide-and-seek with something that isn't her father.`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1899-BW:</strong> The 'erasure' of the Blackwood family from their estate 100 years ago. We're releasing the contents of the last diary they left behind for the first time.
-      </blockquote>
-      <p>Blackwood Manor wasn't just abandoned; it was a place where time itself seemed to have been <strong>violently carved out.</strong> 🕯️ People say the Blackwood family disappeared in the winter of 1899, but they weren't lost. They were erased. On the night of the first snow, the entire house just... stopped. The dining table, fossilized under a layer of dust, was still set for a seven-course meal. A rocking horse in the nursery stood frozen, as if its rider had dissolved into the air.</p>
+      <div class="article-tag">Fiction</div>
+      <p>In 1899, the entire Blackwood family vanished from their estate without a trace. The house was locked from the inside, a dinner party sat untouched on the table, and the only clue was the diary of 10-year-old Elara. How can a family disappear from a sealed house, and what is the terrifying 'Echo Game' she describes in her final entry?</p>
+
+      <h2>1. The Disgraced Historian</h2>
+      <p>Alistair Finch was a man with nothing to lose. Once a respected historian, his career was ruined by his obsession with 'historical impossibilities'—events like the Blackwood vanishing. For him, this wasn't just a cold case; it was personal. His own great-grandfather had been the last person to see the Blackwoods alive and was a suspect, a stain on his family's name. Alistair believed the answer lay in the house, a place the locals claimed was not haunted, but 'waiting'. Breaking the century-old seal, he stepped into a silence that felt heavy, suffocating. The air was thick with the dust of a hundred years, yet it was the absence of sound that was most unnerving.</p>
       
-      <h2>1. A Room Where Time Stood Still 🤔</h2>
-      <p>Alistair Finch, a historian disgraced for his obsession with the paranormal, saw the house not as a tragic ruin, but as a crime scene where reality itself was the victim. Breaking the century-old seal on the front door, he stepped into a silence that was suffocating. He found the diary of the youngest daughter, Elara. Her childish entries about ponies and parties slowly warped into a chronicle of terror.</p>
+      <h2>2. The Echo Game</h2>
+      <p>He found the diary in the nursery, clutched in the arms of a porcelain doll. Elara's early entries were mundane, but they grew increasingly strange. She wrote of a new game her father had taught them: the 'Echo Game.' The rule was simple: when the 'Echo' was hunting, you had to be perfectly still and fill your mind with a single, simple thought, like a nursery rhyme. It couldn't see you, she wrote, but it could hear your thoughts. If it heard a complex thought, it would find you.</p>
 
       <blockquote>
-        <strong>🕵️ Lead Investigator's Memo:</strong><br>
-        Every window and door was locked from the inside. This is a perfect locked-room disappearance. More chillingly, there's no sign of a break-in or forced exit anywhere in the house.
+        <strong>From Elara's Diary:</strong><br>
+        "<em>October 17th: We played the Echo Game today. I thought of 'Twinkle, Twinkle, Little Star.' The Echo passed right by my wardrobe. It feels cold when it's near.</em>"
+        <br><br>
+        "<em>November 5th: Cook thought about her daughter's wedding dress. The Echo found her in the pantry. Now she's one of the Quiet Ones. She doesn't speak anymore.</em>"
       </blockquote>
-
-      <h2>2. The Pursuer in the Glass 🪞</h2>
-      <p>The final page of the diary ends with this: <strong>"Daddy calls it the 'Echo Game.' We have to hide. We can't make a sound. It doesn't see us, it finds us by our thoughts. And it isn't Daddy anymore. I saw it in the hall. It's wearing his skin, but it's too tall. And it smiles too wide..."</strong> The moment he read it, the grandather clock, silent for a century, chimed midnight. The game had begun. From down the hall, Alistair heard a child's giggle—gleeful, but utterly soulless. He was no longer a historian. He was the new player.</p>
       
-      <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>Where did the Blackwood family go? What is the 'Echo Game,' and did Alistair survive? Let us know your hypothesis!</p>
-      </blockquote>
+      <h2>3. The Thing in Father's Skin</h2>
+      <p>Alistair sat in the dead silent nursery, the diary trembling in his hands. He read the final, tear-stained entry: "<em>It's wearing Daddy's skin now, but it's wrong. It's too tall, and it smiles too much. We're all going to hide. I'm going to think about the little star. I hope it's enough.</em>" As Alistair read those words, he didn't hear a clock chime. Instead, he felt it: the abrupt and total cessation of all sound. The faint whisper of wind outside, the creak of the floorboards, even the sound of his own breathing—gone. The silence was absolute. The game had begun, and Alistair's mind, filled with a hundred complex theories, was screaming in the quiet.</p>
+      
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">What is the Echo, and what became of the Blackwoods? Could Alistair survive a game where thinking is a death sentence? Share your hypothesis.</p>
+      </div>
+
+      <p>But here's a final thought: As Alistair sat frozen in the perfect silence, he noticed the last page of the diary wasn't full. Below Elara's entry, in fresh ink, were two words he didn't write: <em>"Found you."</em></p>
     `,
     imageId: 'post-1',
     featured: false,
@@ -84,23 +89,30 @@ const articles: Article[] = [
     title: 'The Last Transmission',
     author: 'Emily White',
     publishedDate: 'October 15, 2023',
-    excerpt: "After a single scream from a deep space freighter, communication was lost. The rescue team found a pristine ship and an unknown 'cargo' that erases its crew's memories one by one until they cease to exist.",
+    excerpt: `A deep space freighter goes silent after a single scream. The rescue team finds a pristine ship, a cryptic cargo, and a force that erases memory itself. How do you fight an enemy that deletes the concept of a weapon?`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #2281-LT:</strong> The final transmission from the deep space freighter 'Odyssey'. A six-second scream, then eternal silence. That scream wasn't a message, it was an invitation.
-      </blockquote>
-      <p>The last transmission from the freighter 'Odyssey' ended with a six-second scream of pure terror. Then, static. But within that static was a nearly inaudible, complex, repeating pattern. It wasn't a language; it was like a 'mathematical formula for madness' that burrowed into the listener's brain. When the rescue ship 'Harbinger' arrived, they found the 'Odyssey' wasn't dead. It was waiting. All systems were online, life support perfect. But the crew was gone. Not just gone, but seemingly edited out of existence.</p>
+      <div class="article-tag">Fiction</div>
+      <p>The deep space freighter 'Odyssey' was hauling Helium-3 when it sent its final, terrifying transmission: a six-second scream followed by static. The rescue crew of the 'Harbinger' found the ship perfectly intact, but the crew was gone. Their logs describe an entity that doesn't kill, but 'unravels' its victims, memory by memory, until nothing is left. What is this entity, and is it still on board?</p>
 
-      <h2>1. The Unraveling Thread of Being 🧵</h2>
-      <p>The captain's personal datapad was the key. "It's not killing us. It's 'unraveling' us. It started small. Jensen couldn't remember the taste of coffee. Then the color blue. Then the concept of 'left'. It's taking the pieces. God, what am I without the pieces? My mother's face... I can't remember my mother's face..." The log ended there.</p>
+      <h2>1. A Ship Without a Past</h2>
+      <p>Captain Eva Rostova of the Harbinger boarded the Odyssey expecting a scene of violence. Instead, she found an unnerving order. Everything was in its place. The ship's logs, however, told a story of creeping madness. It began with small things. The navigator forgot the face of his own daughter. The engineer couldn't remember the taste of coffee. Then they began to lose concepts. First, the color blue. Then, the idea of 'left'. The crew wasn't being killed; they were being systematically deleted.</p>
 
-      <h2>2. The 'Collector' in the Cargo Hold 💎</h2>
-      <p>In the cargo hold, the rescue team found it. Not the Helium-3 listed on the manifest, but a lattice of impossible geometry. It seemed to be made of obsidian and light, folding in on itself in defiance of physics. It was a dimensional artifact that didn't consume matter, but information, experience, consciousness itself. 'The Collector' had deconstructed the crew of the Odyssey, concept by concept, memory by memory, until nothing was left. As the rescuers stared at the object, their chief engineer turned to the captain. "Sir," he asked, "what's a 'ship'?" The artifact was awake, and it was hungry for new stories.</p>
-      
       <blockquote>
-        <h3>🔍 What's Your Choice?</h3>
-        <p>If you were the captain of the 'Harbinger,' what would you have done? Destroy the unknown artifact, or study it for the benefit of mankind? What is your decision?</p>
+        <strong>Final entry from the Odyssey's medical officer:</strong><br>
+        "It's an information parasite. It consumes experience. The more complex the memory, the more it 'feeds.' It has taken our childhoods, our loves, our art. We are becoming blank slates. I am looking at my medical degree, and I no longer know what the words mean. The final irony: soon, we will forget we are afraid."
       </blockquote>
+
+      <h2>2. The Collector</h2>
+      <p>In the cargo hold, they found the source. The manifest said Helium-3, but the container held something else: a lattice of black crystal and fractured light that seemed to fold in on itself. It wasn't matter; it was a physical representation of a multi-dimensional equation, and it was radiating a low-frequency signal—a 'mathematical formula for madness' that was slowly erasing the ship's computer core. It was a 'Collector' of consciousness.</p>
+
+      <p>As Captain Rostova and her team stared at the impossible object, her weapons officer turned to her, his expression blank. "Captain," he asked, "what is a 'weapon'?" The unraveling had begun on the Harbinger. Rostova raised her sidearm, but the thought was already slipping away. What was this object in her hand? What was she supposed to do with it?</p>
+
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Choice?</h3>
+        <p style="margin-bottom: 0;">How can you fight an enemy when it can erase the very concept of fighting? What would you do in Captain Rostova's position? Let us know your decision.</p>
+      </div>
+
+      <p>As the concept of 'gun' faded from Rostova's mind, a new one, alien and intrusive, began to form. It was a single, repeating image: a vast, silent library, with one empty shelf waiting to be filled.</p>
     `,
     imageId: 'post-2',
     featured: false,
@@ -111,23 +123,28 @@ const articles: Article[] = [
     title: 'City of Glass',
     author: 'Michael Brown',
     publishedDate: 'October 5, 2023',
-    excerpt: 'In a city where murder is impossible due to perfect surveillance, a man is found dead. The system says heart attack, but one detective digs for the truth. The killer didn\'t hack the system, they hacked reality itself.',
+    excerpt: `In a city where perfect surveillance has made murder impossible, a man is found dead. The system says 'heart attack.' One detective suspects the truth: the killer didn't hack the system, they hacked reality itself.`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #2242-CG:</strong> In the year 2242, the utopian city of Edelberg sees its first murder in 50 years. But the official record from 'Chrysalis,' the all-seeing city system, is 'natural causes.'
-      </blockquote>
-      <p>In 2242, 'murder' was a word for the history books. In the gleaming metropolis of Edelberg, the omniscient 'Chrysalis' system recorded every moment of every life. No secrets, no privacy, but in return, fifty years of perfect safety. Until yesterday. Elias Vance, one of the system's chief architects, was found dead in his penthouse, locked from the inside. The official report, generated by Chrysalis in seconds: "Cause of Death: Acute coronary dissection. No other individuals present." Case closed.</p>
-
-      <h2>1. The Flaw in Perfection 🔎</h2>
-      <p>But Detective Kaito Tanaka, a man who spent most of his time studying ancient crimes, saw the crack in the perfect story. A tiny, almost invisible puncture mark at the back of Vance's head. He'd been assassinated. The killer hadn't bypassed the most sophisticated surveillance system in history; they had used it as a weapon. Kaito stumbled upon the reality of the 'Shade Code,' a myth among hackers. It allowed a user to create a 'ghost timeline,' a false reality, and insert it flawlessly into the master record.</p>
+      <div class="article-tag">Fiction</div>
+      <p>In the utopian city of Edelberg, the Chrysalis surveillance system has created a paradox: fifty years without a single murder, and a homicide detective with nothing to do. That is, until the system's own architect is found dead in a locked room, and the system declares it was from natural causes. How can a murder occur when the official reality says it didn't?</p>
       
-      <h2>2. The Detective Who Ceased to Exist 👤</h2>
-      <p>The recording Kaito saw of Vance's death wasn't a record of a heart attack; it was a novel written in the code of reality itself. Someone had gained the power to commit the perfect murder by creating a world where the murder never happened. And Kaito, by questioning the official story, was a glitch in their new reality. An error to be deleted. His public records began to flicker. His apartment door denied him access. His digital currency vanished. His partner of ten years looked at him like a stranger. To the City of Glass, Detective Kaito Tanaka no longer existed.</p>
+      <h2>1. The Glitch in the System</h2>
+      <p>Detective Kaito Tanaka was an anachronism, a student of a crime that no longer existed. So when Elias Vance, the architect of the all-seeing Chrysalis, was found dead, Kaito was the only one who saw it as a puzzle. The system's report was flawless: heart attack, no foul play. But Kaito, trained to see what others miss, found it: a microscopic puncture at the base of Vance's skull. He had been assassinated. The killer hadn't bypassed the system; they had rewritten its memory. Kaito had heard whispers of a legend in the hacker underworld: the 'Shade Code,' a program that didn't just alter records, but could insert a completely fabricated 'ghost timeline' into the master record of reality.</p>
 
       <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>Against a killer who can manipulate reality, how can Kaito fight back? How can he prove his own existence when all records of him have been erased?</p>
+        <strong>Investigator's Note:</strong><br>
+        The official recording of Vance's death is perfect. Too perfect. The ambient temperature doesn't fluctuate. The dust motes in the air move in a clean, repeating loop. It's not a recording of reality. It's a perfect simulation. The killer created a version of events where the murder never happened.
       </blockquote>
+
+      <h2>2. The Man Who Wasn't There</h2>
+      <p>By questioning the official story, Kaito became a bug in the killer's program, an error to be deleted. His access cards stopped working. His bank balance flatlined. His partner of ten years looked at him with the polite confusion of a stranger. To the City of Glass, Detective Kaito Tanaka was ceasing to exist. He raced against time, a ghost in the machine, trying to find a killer who could wield reality as a weapon before he was completely erased himself. He was no longer just solving a murder; he was fighting for his own existence.</p>
+      
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">How can Kaito prove a murder happened when all evidence of it has been erased from reality? And how can he prove he exists when the system says he doesn't? Post your theories below.</p>
+      </div>
+      
+      <p>Before his identity was completely wiped, Kaito found a hidden, encrypted file on Vance's personal server. It was a video diary. In the last entry, a terrified Vance looks directly at the camera and says, "I thought I was building a utopia. But the 'Shade Code' was just the beginning. I've discovered its purpose. It's not for covering up a crime... it's for preparing for an arrival."</p>
     `,
     imageId: 'post-3',
     featured: false,
@@ -138,24 +155,34 @@ const articles: Article[] = [
     title: 'The Devil\'s Pass',
     author: 'Alex Ivanov',
     publishedDate: 'September 28, 2023',
-    excerpt: 'Nine hikers are found dead in the snow. Their tent was ripped from the inside, and some had inexplicable, severe injuries. The file says "a compelling natural force," but the file is lying.',
+    excerpt: `Nine experienced hikers are found dead in the Ural Mountains. Their tent was ripped open from the inside, and they fled into a -30°C blizzard without shoes. Why did they run, and what caused their bizarre, catastrophic injuries?`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1959-DP:</strong> In February 1959, nine experienced hikers died in the Ural Mountains of the Soviet Union. The 'Dyatlov Pass incident' is a mystery too bizarre and horrifying to be a simple hiking accident.
-      </blockquote>
-      <p>A peak in the Ural Mountains is known to the local Mansi people as 'Kholat Syakhl,' or 'Dead Mountain.' It's where their gods go to die, a place whose peace should not be disturbed. In February 1959, nine veteran hikers from the Ural Polytechnical Institute ignored that warning. They were young, strong, and confident. They would not return. Their final camp was pitched on the mountainside, a decision experts found highly unusual. It was their first and last mistake.</p>
+      <div class="article-tag">Based on Real Events</div>
+      <p>In February 1959, nine Soviet hikers died under bizarre circumstances in the Ural Mountains. Investigators found their tent sliced open from the inside, and the hikers, who had fled into the frozen night without proper gear, had suffered inexplicable injuries, including crushed ribs and a missing tongue. What terrifying force caused these experienced mountaineers to abandon their only shelter and walk calmly to their doom?</p>
 
-      <h2>1. A Tent, Ripped From the Inside ⛺</h2>
-      <p>What search parties found weeks later was a scene of pure, inexplicable terror. Their tent had been viciously sliced open, not from the outside, but from within. The hikers had fled into the -30°C blizzard, leaving behind their supplies, their warm clothing, even their boots. Footprints in the snow showed they didn't run, but walked in an orderly fashion down the slope, as if being led.</p>
+      <h2>1. Confirmed Facts: The Scene</h2>
+      <p>On the night of February 1st, the group, led by Igor Dyatlov, pitched their tent on the slopes of Kholat Syakhl, the "Dead Mountain." This was their last known action. Weeks later, search parties found the abandoned tent, ripped open from within. Footprints led away from the camp, but they were the prints of people walking, not running, in socks or bare feet. The first five bodies were found scattered down the slope, dead of hypothermia. They were dressed in their sleepwear in -30°C temperatures.</p>
 
-      <h2>2. Inexplicable Injuries 💀</h2>
-      <blockquote>The first five bodies were found to have died of hypothermia. Tragic, but understandable. But it was two months later, when the spring thaw revealed the true mystery, that the horror became clear. The last four bodies were discovered in a ravine, and their injuries were catastrophic. One had a skull fracture consistent with a car crash. Another had crushed ribs, with no external trauma, as if squeezed by an immense, invisible force. Most disturbingly, one of the female hikers was missing her tongue.</blockquote>
-      <p>The investigation was abruptly closed, the final report classifying the event as the result of "a compelling natural force." The files were then sealed for decades. What 'natural force' could cause such internal damage without any external wounds? Why would nine veteran hikers rip open their only shelter and walk calmly to their frozen doom?</p>
+      <h2>2. Confirmed Facts: The Bodies</h2>
+      <p>Two months later, the remaining four hikers were found in a ravine, and the true mystery began. These four had suffered horrific internal injuries. One had a fractured skull, and two others had chest fractures consistent with the force of a car crash, yet there were no external wounds. One of the women was missing her tongue, eyes, and part of her lips. Furthermore, traces of radiation were found on some of their clothing.</p>
 
-      <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>Were they victims of a military experiment, or an attack by an unidentified creature like a Yeti? Or was it something supernatural? What is the truth hidden at Dyatlov Pass?</p>
-      </blockquote>
+      <h2>3. Leading Scientific Hypotheses</h2>
+      <p>The official Soviet investigation concluded that an "unknown compelling natural force" caused the deaths. Modern theories are more specific:</p>
+      <ul>
+        <li><strong>Slab Avalanche:</strong> A small, delayed avalanche could have covered the tent, causing the internal injuries and forcing the hikers to cut their way out in a panic. Disoriented and hypothermic, they succumbed to the elements.</li>
+        <li><strong>Katabatic Winds:</strong> Intense, hurricane-force winds could have created a terrifyingly loud noise, inducing panic.</li>
+        <li><strong>Infrasound:</strong> Certain wind conditions can create very low-frequency sounds (infrasound) that can induce feelings of nausea, panic, and dread in humans, potentially causing them to flee irrationally.</li>
+      </ul>
+
+      <h2>4. Fringe Speculation & Unanswered Questions</h2>
+      <p>The bizarre details have led to more outlandish theories, including a secret Soviet weapons test, an attack by the local Mansi people (which was quickly ruled out), or an encounter with a cryptid like a Yeti or something extraterrestrial. These theories persist because the leading hypotheses don't fully explain everything. An avalanche doesn't account for the orderly footprints or the missing tongue. Infrasound doesn't explain the massive internal trauma.</p>
+
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Do you believe one of the scientific theories fits all the facts, or was something more sinister at play on Dead Mountain? Share your analysis.</p>
+      </div>
+
+      <p>The case was closed in 1959. But in 2019, it was quietly reopened by Russian authorities. Their conclusion? A slab avalanche. A simple answer for a deeply complex case, and a conclusion that, for many who have studied the evidence, only deepens the mystery.</p>
     `,
     imageId: 'post-4',
     featured: false,
@@ -166,24 +193,36 @@ const articles: Article[] = [
     title: 'The Vanishing',
     author: 'Eleanor Vance',
     publishedDate: 'September 19, 2023',
-    excerpt: '115 colonists disappeared overnight. The only clue they left was the word "CROATOAN" carved into a tree. Was this their destination, or the name of what consumed them?',
+    excerpt: `In 1590, over 100 colonists on Roanoke Island disappeared, leaving behind a dismantled settlement and a single word carved into a post: "CROATOAN". Was this their destination, or the name of what consumed them?`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1590-RV:</strong> In 1587, 115 English men, women, and children set foot in America. Three years later, they vanished, leaving behind only a single word. The mystery of the 'Roanoke Colony Disappearance'.
-      </blockquote>
-      <p>In 1587, more than 115 English men, women, and children sought to carve their own space in the New World. Under Governor John White, they established the 'Citie of Ralegh' on Roanoke Island. Hopes were high with the birth of Virginia Dare, the first English child born on American soil, but supplies were low. White sailed back to England for provisions, promising to return within a year. But war with the Spanish Armada delayed his return for three long years, leaving the Roanoke colonists stranded on a forgotten island.</p>
-      
-      <h2>1. The Silent Settlement 🏚️</h2>
-      <p>When Governor White finally returned in August 1590, on his granddaughter's third birthday, he found nothing. The settlement wasn't destroyed; it was 'dismantled.' The houses were carefully taken down, all signs of habitation gone. There were no signs of a struggle, no bodies, not even a single bone. It was as if all 115 people had simply evaporated into the humid air.</p>
+      <div class="article-tag">Based on Real Events</div>
+      <p>In the late 16th century, the first English colony in the New World, a settlement of over 115 men, women, and children, vanished without a trace. They left behind no bodies, no signs of a struggle, and only one cryptic clue: the word "CROATOAN" carved into a tree. What happened to the Lost Colony of Roanoke?</p>
 
-      <h2>2. A Clue Carved in Wood 🌳</h2>
-      <blockquote>The only clue he found was a single word carved into a post of the fort's entrance: "CROATOAN." There was no Maltese cross, the agreed-upon distress signal. This suggested a peaceful migration to the nearby Croatoan Island. But a powerful hurricane was brewing, and his crew refused to sail. White was forced to return to England, never to see his family or the colony again. The 'Lost Colony' was officially lost.</blockquote>
-      <p>For centuries, the mystery has endured. Did they assimilate into a native tribe? Were they massacred by the Spanish or a hostile tribe? If so, where are their graves? The complete lack of archaeological evidence is the most chilling part of the mystery.</p>
+      <h2>1. The Silent Settlement</h2>
+      <p>In 1587, Governor John White led the colonists to Roanoke Island. Facing dwindling supplies, he sailed back to England for aid, leaving his family, including his newborn granddaughter Virginia Dare, behind. He expected to return within a year. However, the war between England and Spain delayed his return for three long years. When he finally landed on Roanoke in August 1590, he found the settlement abandoned. But it wasn't destroyed. The houses had been carefully dismantled, the area cleared. It was as if the entire colony had been packed up and moved.</p>
+
+      <h2>2. The "CROATOAN" Clue</h2>
+      <p>The only sign of the colonists' fate was the word "CROATOAN" carved into a palisade post. A smaller carving, "CRO," was found on a nearby tree. Croatoan was the name of a nearby island (modern-day Hatteras Island) and the name of the Native American tribe that inhabited it. Before leaving, White had instructed the colonists that if they had to leave, they should carve their destination, and to add a Maltese cross if they were in danger. There was no cross.</p>
 
       <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>Was "CROATOAN" not a destination, but the name of what consumed them? What really happened to the colonists of Roanoke?</p>
+        <strong>Governor White's Journal:</strong><br>
+        "I greatly joyed that I had found a certain token of their safe being at Croatoan, which is the place where Manteo was born, and the savages of the island our friends."
       </blockquote>
+
+      <h2>3. Hypotheses and Dead Ends</h2>
+      <p>White was convinced they had relocated peacefully, but a powerful hurricane forced his ships back to sea before a search could be mounted. He would never see his family again. For centuries, theories have abounded:</p>
+      <ul>
+        <li><strong>Assimilation:</strong> The most widely accepted theory is that the colonists, struggling to survive, gradually integrated with a friendly local tribe, likely the Croatoans. DNA testing and archaeological finds in recent years on Hatteras Island have lent some support to this idea.</li>
+        <li><strong>Massacre:</strong> Another theory suggests the colonists were attacked and killed, either by the Spanish who had settlements to the south, or a hostile native tribe. However, the lack of bodies or any signs of a battle makes this less likely.</li>
+        <li><strong>Disease and Starvation:</strong> It's possible the colony was simply wiped out by a New World disease or that they starved during a severe drought, which tree-ring data from the period confirms occurred.</li>
+      </ul>
+
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Do you believe the colonists simply moved and assimilated, or did something more sinister happen? Let us know what you think is the most plausible explanation.</p>
+      </div>
+
+      <p>The final, unsettling detail is in the native oral traditions. Some legends speak of a tribe on the island who could "talk with the trees." To them, was "CROATOAN" not just a place, but a power? A spirit of the land that the colonists, in their desperation, turned to for aid, and in doing so, were absorbed by it forever?</p>
     `,
     imageId: 'post-5',
     featured: false,
@@ -194,28 +233,31 @@ const articles: Article[] = [
     title: 'The Body on the Beach',
     author: 'Julian Blackwood',
     publishedDate: 'September 12, 2023',
-    excerpt: 'An unidentified man is found dead on an Australian beach. A scrap of paper in his pocket has just two words: "Tamám Shud" — It is finished. His identity, cause of death, and a cryptic code remain a perfect mystery.',
+    excerpt: `An unidentified man is found dead on an Australian beach in 1948. In his pocket is a scrap of paper with two words: "Tamám Shud"—It is finished. An unbreakable code and a possible Cold War spy connection make this a perfect mystery.`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1948-SC:</strong> The body of a man found on Somerton beach, Adelaide, Australia, on December 1, 1948. His identity and everything surrounding his death remain a mystery, known as the 'Tamám Shud case.'
-      </blockquote>
-      <p>On the morning of December 1, 1948, a man was found dead, propped against the seawall on Somerton beach in Adelaide, Australia. He was dressed impeccably in a suit and tie, his shoes polished. There were no signs of trauma, and all the labels on his clothing had been meticulously removed. Police could not identify him through dental records or fingerprints. In a hidden fob pocket of his trousers, they found a small, rolled-up piece of paper printed with two elegant words: "Tamám Shud."</p>
+      <div class="article-tag">Based on Real Events</div>
+      <p>On December 1, 1948, a sharply dressed, unidentified man was found dead on Somerton beach in Australia. All labels had been cut from his clothes, and his identity remains unknown to this day. The case's enduring mystery stems from two clues: a coded message, and a scrap of paper in a hidden pocket bearing the Persian phrase "Tamám Shud"—"It is finished." Who was the Somerton Man, and was he a spy, a spurned lover, or something else entirely?</p>
       
-      <h2>1. A Poet's Final Words 📜</h2>
-      <p>The phrase, meaning "It is ended" or "It is finished" in Persian, was torn from a rare edition of 'The Rubaiyat of Omar Khayyam.' A nationwide search led police to the very book, which had been tossed into the back of an unlocked car near the beach. In the back of the book, written in faint pencil, was what appeared to be an unbreakable code. The book also contained the unlisted phone number of a nurse who lived just a short distance from where the body was found.</p>
+      <h2>1. The Unknown Man</h2>
+      <p>The man was in peak physical condition. The autopsy found no foreign substances in his body, yet concluded he died of heart failure, likely from an untraceable poison. His dental records and fingerprints matched no living person on record. With no ID and all clothing labels removed, police were at a dead end. Months later, a pathologist re-examining the man's trousers found a tiny, hidden fob pocket containing a tightly rolled scrap of paper. The paper contained the printed words "Tamám Shud."</p>
+
+      <h2>2. The Rubaiyat and the Code</h2>
+      <p>The phrase was identified as the final words from "The Rubaiyat of Omar Khayyam," a collection of Persian poetry. A public appeal led to the discovery of the exact book the scrap was torn from, which had been tossed into a nearby car. In the back of this book, police found faint pencil markings: a five-line code of capital letters. This code has never been deciphered. The book also contained the unlisted phone number of a local nurse, Jessica "Jestyn" Thomson.</p>
 
       <blockquote>
-        <strong>🕵️ Investigation Record:</strong><br>
-        The nurse, known only as 'Jestyn,' claimed not to know the man, but nearly fainted when shown a plaster cast of his face. She admitted to once owning a copy of the same rare poetry book, which she had given to an army lieutenant named Alfred Boxall during WWII.
+        <strong>From the Police Report:</strong><br>
+        "When shown the plaster cast of the deceased's head and shoulders, the nurse appeared completely taken aback, and seemed about to faint." She denied knowing him, but admitted she had given a copy of The Rubaiyat to an army lieutenant, Alfred Boxall, during WWII.
       </blockquote>
 
-      <h2>2. The Spy and the Nurse 💔</h2>
-      <p>Investigators were hopeful. Had they finally identified the man? The hope was quickly extinguished. Alfred Boxall was found alive and well, with his copy of 'The Rubaiyat' intact—including the "Tamám Shud" page. The mystery only deepened. Who was the dead man? Was he a Cold War spy, poisoned with an untraceable substance just before meeting his contact? Was 'Jestyn' his lover, or a fellow agent? The code has never been deciphered, and the man's identity remains an eternal mystery.</p>
+      <h2>3. A Cold War Spy?</h2>
+      <p>Investigators thought they had their man, but Alfred Boxall was found alive, with his copy of the book intact—including the "Tamám Shud" page. The dead man was not Boxall. The nurse's strange reaction and the unbreakable code, combined with the timing at the start of the Cold War, fueled speculation that the Somerton Man was a spy. Was he poisoned by enemy agents? Did the code contain state secrets? The nurse took her secrets to the grave, and the man's identity remains one of Australia's most profound mysteries.</p>
       
-      <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>An elaborate, planned assassination, or the end of a tragic love story? What do you think is the truth behind the 'Tamám Shud' case?</p>
-      </blockquote>
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Was the Somerton Man a spy killed in the line of duty, or was it the victim of a love affair gone wrong? What do you think the code says? Share your analysis.</p>
+      </div>
+
+      <p>In 2022, a researcher claimed to have used DNA to identify the man as Carl "Charles" Webb, an electrical engineer. However, this identification has not been officially confirmed by authorities. Even if we have a name, it answers none of the critical questions: Why was he there? How did he die? And what is the meaning of the still-unbroken code?</p>
     `,
     imageId: 'post-6',
     featured: false,
@@ -226,24 +268,31 @@ const articles: Article[] = [
     title: 'The Ghost Ship\'s Final Scream',
     author: 'Coral Black',
     publishedDate: 'September 5, 2023',
-    excerpt: 'The most horrifying distress call in maritime history. "All officers... are dead... probably the whole crew is dead." Then a final message from the radio operator: "I die." What was found on that ship was worse than imagined.',
+    excerpt: `In 1947, a Dutch freighter sent a horrifying SOS: "All officers... are dead... I die." The boarding party found a ship of corpses, their faces frozen in terror. What did they see before the ship exploded and sank, taking its secret with it?`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1947-OM:</strong> The final scream from the Dutch freighter 'Ourang Medan', received in the Strait of Malacca in June 1947. This was no ordinary distress call.
-      </blockquote>
-      <p>On a hot day in June 1947, a chilling Morse code message rippled across the shipping lanes in the Strait of Malacca. It came from the Dutch freighter SS Ourang Medan. "S.O.S. from Ourang Medan... we are afloat. All officers, including captain, dead in chartroom and on bridge. Probably whole crew dead." This was followed by a burst of indecipherable code, and then a final, two-word message: "I die." Then, eternal silence.</p>
+      <div class="article-tag">Based on Real Events / Legend</div>
+      <p>The story of the SS Ourang Medan is one of the most terrifying ghost ship legends in maritime history. In the late 1940s, ships in the Strait of Malacca allegedly picked up a horrifying Morse code SOS: "All officers including captain are dead... probably whole crew dead." This was followed by a final, chilling transmission: "I die." What happened aboard the Ourang Medan?</p>
       
-      <h2>1. The Ship of Corpses 🚢</h2>
-      <p>The American merchant ship 'Silver Star' was the first to respond, racing to the Ourang Medan's last known position. They found the ship adrift and eerily silent. A boarding party sent to investigate discovered a nightmarish scene. The entire crew lay dead, scattered across the decks. The captain on the bridge, the officers in the chartroom, even the radio operator, his hand still frozen on the Morse code key.</p>
+      <h2>1. The Ship of Corpses</h2>
+      <p>According to the legend, the American merchant ship 'Silver Star' was the first to locate the drifting Dutch freighter. It appeared undamaged. A boarding party was sent over, and they discovered a horrific scene. The decks were littered with the bodies of the Dutch crew. The captain was dead on the bridge, the officers in the chartroom, and the radio operator was slumped over his equipment, his hand still on the Morse key. Even the ship's dog was dead.</p>
 
-      <h2>2. Frozen in Fear 🥶</h2>
-      <blockquote>Every person on the ship, even the ship's dog, was frozen in an impossible state. Eyes were wide open in terror, faces contorted into masks of unimaginable horror. Arms were outstretched as if to fend off an unseen assailant. Yet, on none of the bodies was there a single sign of injury or struggle. They had, quite literally, been scared to death.</blockquote>
-      <p>Despite the tropical heat, an unnatural chill emanated from deep within the ship. The boarding party decided to tow the ghost ship to port. But as they attached the tow line, thick smoke began to pour from the No. 4 cargo hold. They barely had time to cut the line and retreat before the Ourang Medan erupted in a massive explosion, sinking beneath the waves and taking its terrible secret with it.</p>
-      
       <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>What was in the cargo hold? An unregistered nerve agent? Or did the crew of the Ourang Medan encounter something far older, and far more malevolent, in those lonely waters?</p>
+        <strong>From the alleged account of a 'Silver Star' crewman:</strong><br>
+        "Their faces were the worst part. Every single one of them, even the dog, had their eyes wide open, teeth bared, faces twisted towards the sun as if in agony. They were frozen in a state of pure, abject terror. But there wasn't a mark on them. Not a single sign of injury."
       </blockquote>
+
+      <h2>2. Fact or Fiction?</h2>
+      <p>Here, the story becomes difficult to verify. There is no official registration record for a ship named Ourang Medan. The 'Silver Star' is also a ghost; no ship by that name was listed in the area at that time. This has led many to believe the story is simply a spooky sea tale, a piece of folklore passed from sailor to sailor. However, the story's persistence and its specific details have fueled decades of speculation.</p>
+
+      <h2>3. The Exploding Cargo</h2>
+      <p>In the most popular version of the tale, the boarding party felt an extreme chill coming from the cargo hold. They decided to tow the ghost ship to port, but as they attached the line, smoke began billowing from below deck. The party scrambled back to their ship just as the Ourang Medan exploded with such force that it was lifted from the water before sinking without a trace. This has led to the leading hypothesis: the ship was smuggling unregistered, hazardous materials, perhaps nitroglycerin or even nerve agents developed during WWII, which leaked and suffocated the crew before exploding.</p>
+      
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Is the story of the Ourang Medan a complete fabrication, or is it a fictionalized account of a real, secret tragedy? What could have killed the crew with fear before the ship conveniently exploded? Share your thoughts.</p>
+      </div>
+      
+      <p>One final, unsettling thought: "Ourang Medan" translates from Malay to "Man from Medan." What if it wasn't the name of the ship, but a description of the cargo?</p>
     `,
     imageId: 'post-7',
     featured: false,
@@ -254,24 +303,32 @@ const articles: Article[] = [
     title: 'The Silent Lighthouse',
     author: 'Arthur Machen',
     publishedDate: 'August 29, 2023',
-    excerpt: 'Three lighthouse keepers vanished from a remote Scottish isle. A half-eaten meal sat on the table, an overturned chair the only sign of struggle. They were never seen again.',
+    excerpt: `Three lighthouse keepers vanished from a remote Scottish isle in 1900. An untouched meal sat on the table, and their logbook described a storm that no one else saw. What made them abandon their post and walk into the sea?`,
     content: `
+      <div class="article-tag">Based on Real Events</div>
+      <p>In December 1900, a passing ship noticed the lamp in the newly built lighthouse on the Flannan Isles was unlit. When the relief vessel arrived, they found the lighthouse abandoned. The three keepers—Thomas Marshall, James Ducat, and Donald McArthur—had vanished. What made three experienced keepers abandon their post and disappear into the Atlantic?</p>
+
+      <h2>1. The Eerie Calm</h2>
+      <p>The relief ship 'Hesperus' arrived on December 26th to find a scene of unnerving order. The lighthouse door was unlocked, and inside, two of the three oilskin coats were missing. In the kitchen, a half-eaten meal of salted mutton sat cold on the table, and a chair was overturned as if someone had jumped up in a hurry. The clocks had all stopped. The lighthouse itself was pristine; the lamps were cleaned and refilled, ready to be lit. The men were simply gone.</p>
+
+      <h2>2. The Phantom Storm</h2>
+      <p>The lighthouse logbook provided the strangest clue. One keeper, Thomas Marshall, recorded the events of the preceding days. He wrote of a severe storm with powerful winds "such as I have never seen." He noted that James Ducat had been "very quiet" and that Donald McArthur, a notoriously tough mariner, "has been crying." This was baffling because no storms were reported in the area on those days. The weather was calm.</p>
+      
       <blockquote>
-        <strong>⚠️ Case File #1900-FL:</strong> In December 1900, the light went out at the lighthouse on the remote Flannan Isles of Scotland. And the three keepers guarding it vanished without a trace.
+        <strong>Logbook Entry, December 15th:</strong><br>
+        "Storm ended. Sea calm. God is over all." This was the final entry.
       </blockquote>
-      <p>In December 1900, on the rugged Flannan Isles in Scotland's Outer Hebrides, a passing ship reported that the newly-built lighthouse's lamp was unlit. On December 26, when the relief vessel 'Hesperus' arrived, it was met with an eerie silence. The three keepers—Thomas Marshall, James Ducat, and Donald McArthur—were nowhere to be seen.</p>
 
-      <h2>1. The Eerily Silent Lighthouse 🏠</h2>
-      <p>Joseph Moore, a relief keeper, ascended to the lighthouse. The main door was unlocked. Inside, the lighthouse was in perfect order. The lamps were trimmed and filled with oil. But all the clocks had stopped. In the living quarters, a half-eaten meal of salted mutton and potatoes sat on the table. One chair was overturned, as if someone had sprung from their meal in a sudden fright.</p>
+      <h2>3. Theories and Lingering Questions</h2>
+      <p>The official explanation was that the men were swept away by a freak rogue wave while tending to equipment near the cliffs. This would explain why two men might rush out without their coats to help a third. But it doesn't account for the untouched meal, the logbook entries describing a phantom storm, or why a seasoned keeper would be weeping in terror.</p>
+      <p>Other theories suggest a fight broke out, or that one keeper went mad and was subdued by the others. But the most enduring speculation is that the men saw something in the water during the "storm that wasn't a storm"—something that terrified them so much that they abandoned their post, leading to their demise in the churning sea.</p>
 
-      <h2>2. A Record of the Storm ⛈️</h2>
-      <blockquote>The last entry in the logbook was dated December 15. Thomas Marshall, a veteran mariner, wrote of a storm "such as I have never seen." He added, "James Ducat has been very quiet, and Donald McArthur has been crying." But the strangest clue was the outdoor gear. Two sets of oilskins were in their place, but Donald McArthur's were missing.</blockquote>
-      <p>This implied that Marshall and Ducat had run out into a furious storm without their protective gear. Why? The official inquiry concluded they were swept away by a giant rogue wave. But does that explain the overturned chair and the half-eaten meal? And why, on a day when other ships in the area reported clear skies, did the lighthouse log speak of a terrible storm?</p>
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Was it a rogue wave, a descent into madness, or did the keepers encounter something unnatural that the logbook only hinted at? Let us know what you think happened.</p>
+      </div>
 
-      <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>What did they see in the waves? Or did something 'from' the sea come for them? What happened in the final moments of the Flannan Isles lighthouse keepers?</p>
-      </blockquote>
+      <p>A final piece of the puzzle is a poem written years later by Wilfrid Wilson Gibson, inspired by the event. In it, he imagines the final moments, where one keeper looks out and sees "a great, dark bird" and then "a great, dark hand." Was this poetic license, or was it inspired by local legends the keepers might have known?</p>
     `,
     imageId: 'post-8',
     featured: false,
@@ -282,24 +339,36 @@ const articles: Article[] = [
     title: 'The Green Children from Nowhere',
     author: 'Brother John',
     publishedDate: 'August 22, 2023',
-    excerpt: 'In 12th century England, two children with green skin appeared. They spoke an unknown language and would only eat raw beans. Where did they come from? And why was their skin green?',
+    excerpt: `In 12th century England, two children with green skin and an unknown language appeared in a village. They claimed to be from a subterranean land of perpetual twilight. Were they lost, or were they visitors from another world?`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1173-GC:</strong> Two children discovered in the English village of Woolpit in the 12th century. Their skin was green, and the place they came from was 'a land where the sun never rose.'
-      </blockquote>
-      <p>During the chaotic reign of King Stephen in 12th-century England, the villagers of Woolpit made a bizarre discovery. Two children, a boy and a girl, emerged from one of the wolf-trapping pits that gave the village its name. The children, found huddled and terrified, shocked the villagers for several reasons: they wore strange clothes, spoke a language no one could understand, and most unsettlingly, their skin was a vibrant shade of green.</p>
+      <div class="article-tag">Based on Real Events / Legend</div>
+      <p>During the 12th century, the English village of Woolpit was startled by the appearance of two children, a brother and sister, who had emerged from a wolf-trapping pit. They spoke an unknown language, wore unfamiliar clothing, and most astonishingly, their skin was a distinct shade of green. Who were the Green Children of Woolpit, and where did they come from?</p>
 
-      <h2>1. Children from Another World 👽</h2>
-      <p>The children were taken to the home of a local landowner, Sir Richard de Calne, but they refused all food for days, starving. Finally, when the villagers brought in freshly harvested broad beans, the children devoured them raw. For months, it was all they would eat. The boy, who was younger and appeared sickly, eventually died within a year. The girl, however, adapted. She was baptized, learned to eat other foods, and as her diet changed, the strange green tint of her skin gradually faded to a normal complexion.</p>
+      <h2>1. The Arrival</h2>
+      <p>The children were discovered by reapers working the fields. They were taken to the home of a local landowner, Sir Richard de Calne. Terrified and distraught, they refused all food for days until they were offered raw broad beans, which they ate voraciously. The boy, who seemed younger and was sickly, died within a year. The girl, however, adapted. She was baptized, learned to eat other foods, and as her diet changed, the green hue of her skin gradually faded.</p>
       
-      <h2>2. 'St. Martin's Land' — A Subterranean World</h2>
-      <blockquote>Once she learned English, the girl told a strange and bewildering story. She claimed she and her brother had come from a place called 'St. Martin's Land,' a subterranean world where the sun never rose and everything was in a state of perpetual twilight. All the people and things in her world, she said, were green.</blockquote>
-      <p>She claimed they had been herding their father's flock when they were drawn into a cave by a loud, bell-like sound. They wandered in darkness for a long time before emerging into the blinding sunlight of Woolpit. Was this a folktale, or a distorted account of a real event? Historians have tried to rationalize it—perhaps it was arsenic poisoning, or a form of anemia called chlorosis that can tint the skin green. But these theories don't fully explain how the children got to the pit, or their description of a twilight land.</p>
-      
+      <h2>2. The Land of St. Martin</h2>
+      <p>Once she learned to speak English, the girl explained that she and her brother came from a place called "St. Martin's Land." She described it as a subterranean world where the sun never shone and everything was in a state of perpetual twilight. All the inhabitants of her land were green, just as they had been.</p>
+
       <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>Were the green children of Woolpit visitors from another dimension, or members of an unknown subterranean civilization? What are your thoughts on their identity?</p>
+        <strong>According to the chronicler William of Newburgh:</strong><br>
+        She claimed they were herding their father's cattle when they heard a loud sound, like bells, and were drawn into a cave. They wandered in darkness for a long time before emerging into the bright sunlight of Woolpit, which terrified them.
       </blockquote>
+
+      <h2>3. Explanations: Mundane and Fantastical</h2>
+      <p>Historians have attempted to find rational explanations for the event:</p>
+      <ul>
+        <li><strong>Arsenic Poisoning:</strong> The children could have been Flemish immigrants who were persecuted and fled, accidentally poisoning themselves with arsenic, which can tint the skin green.</li>
+        <li><strong>Hypochromic Anemia:</strong> Also known as "green sickness," this iron-deficiency anemia can give the skin a greenish pallor. A change in diet could have cured the girl.</li>
+      </ul>
+      <p>However, these theories don't fully account for the story of a subterranean land or the unknown language. More fantastical theories propose that the children were aliens, or that they had accidentally stumbled through a portal from another dimension or a world beneath our own.</p>
+      
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Was this a distorted account of lost and malnourished children, or does the story hide a more extraordinary truth about a world hidden from our own? Share your perspective.</p>
+      </div>
+
+      <p>A lingering detail is the name of their home: St. Martin's Land. St. Martin of Tours is a patron saint often associated with charity to outsiders and strangers. Was the girl's story a confused memory, or a clever allegory for being lost and taken in by strangers in a foreign land?</p>
     `,
     imageId: 'post-9',
     featured: false,
@@ -310,24 +379,31 @@ const articles: Article[] = [
     title: 'The Day the Sky Fell',
     author: 'Dr. Artyom Volkov',
     publishedDate: 'August 15, 2023',
-    excerpt: 'In 1908, an explosion 1,000 times more powerful than the Hiroshima bomb flattened a Siberian forest. Witnesses saw a pillar of blue light streaking across the sky. But there was no impact crater.',
+    excerpt: `In 1908, an explosion 1,000 times more powerful than the Hiroshima bomb flattened a remote Siberian forest. Witnesses saw a pillar of blue light. The mystery? There was no impact crater.`,
     content: `
-      <blockquote>
-        <strong>⚠️ Case File #1908-TE:</strong> An unidentified mid-air explosion over Siberia on June 30, 1908, with the force of hundreds of atomic bombs. The largest 'impact' event in human history, the 'Tunguska Event'.
-      </blockquote>
-      <p>On the morning of June 30, 1908, a cataclysm occurred over the remote Podkamennaya Tunguska River in Siberia. A colossal explosion, estimated to be more than 1,000 times more powerful than the atomic bomb dropped on Hiroshima, detonated in the sky. The blast flattened over 2,150 square kilometers of the taiga forest, felling some 80 million trees in a perfect radial pattern. The shockwave was felt hundreds of kilometers away, and for several nights, the skies over Europe and Asia glowed with such an eerie luminescence that people in London could read newspapers at midnight.</p>
+      <div class="article-tag">Based on Real Events</div>
+      <p>On June 30, 1908, an explosion of apocalyptic scale occurred over the Tunguska region in Siberia, flattening over 2,000 square kilometers of forest. It remains the largest 'impact event' in recorded history. But when scientists finally reached the remote site, they found millions of felled trees pointing away from a central point, and one baffling, impossible fact: there was no crater. What could cause such devastation and leave no trace of itself?</p>
 
-      <h2>1. An Explosion with No Crater 💥</h2>
-      <p>Witnesses, mostly local Evenki people and Russian settlers, described seeing a "pillar of fire" or a "column of blue light, as bright as the sun" moving across the sky. This was followed by a deafening sound like artillery fire and a shockwave that threw people to the ground and shattered windows hundreds of kilometers away. The immediate conclusion was a massive meteorite impact. However, due to Russia's internal turmoil, a scientific investigation was delayed. When the first expedition finally reached the isolated site in 1927, they found something inexplicable: there was no impact crater.</p>
+      <h2>1. Fact: The Explosion</h2>
+      <p>Local Evenki people and Russian settlers witnessed a "pillar of fire" or a "blueish light, as bright as the sun" streak across the morning sky. This was followed by a sound like artillery fire and a shockwave that shattered windows and knocked people off their feet hundreds of kilometers away. For several nights afterward, the sky over Europe and Asia glowed with an eerie light, a phenomenon now known as 'luminous nights'.</p>
       
-      <h2>2. The 'Telegraph Poles' Riddle 🌲</h2>
-      <blockquote>The expedition found a vast 'graveyard' of scorched and felled trees, but at the epicenter of the blast, a small group of trees ironically remained standing, stripped of their branches and bark. This became known as the 'telegraph pole' phenomenon. There was no impact site, no fragments, no physical evidence that anything had struck the Earth. The object, whatever it was, seemed to have vaporized in a massive mid-air explosion.</blockquote>
-      <p>This 'craterless' discovery sparked a century of speculation. The leading scientific theory is that a small asteroid or comet entered the atmosphere and exploded at an altitude of 5 to 10 kilometers. But countless other theories have been proposed, from an alien spaceship exploding to a secret experiment by Nikola Tesla.</p>
+      <h2>2. Hypothesis: The Airburst Theory</h2>
+      <p>The leading scientific explanation is that a small asteroid or comet, likely 50-60 meters in diameter, entered the atmosphere at high speed and disintegrated in a massive mid-air explosion (an 'airburst') 5 to 10 kilometers above the ground. The resulting high-temperature shockwave flattened the forest below. The 2013 Chelyabinsk meteor event in Russia was a much smaller version of this same phenomenon, and it provided a real-world model that strongly supports the Tunguska airburst theory. The object was completely vaporized, which is why no impact crater or significant fragments have ever been found.</p>
 
-      <blockquote>
-        <h3>🔍 What's Your Theory?</h3>
-        <p>What caused the Tunguska event? A simple natural phenomenon, or an event involving unknown forces that humanity has yet to understand? Share your hypothesis.</p>
-      </blockquote>
+      <h2>3. Speculation: The Fringe Theories</h2>
+      <p>The lack of a crater has left the door open for more imaginative speculation over the years. These theories are not supported by evidence but remain part of the Tunguska lore:</p>
+      <ul>
+        <li><strong>Antimatter:</strong> A piece of antimatter colliding with Earth's atmosphere would annihilate itself, releasing enormous energy without leaving a physical impactor.</li>
+        <li><strong>Black Hole:</strong> A 'micro black hole' passing through the Earth was proposed, but this would have created an exit wound on the other side of the planet, which was not observed.</li>
+        <li><strong>Alien Craft / Weapon:</strong> The most popular fringe theory is that the explosion was a crashing alien spaceship or the test of an extraterrestrial weapon.</li>
+      </ul>
+
+      <div style="background-color: #2a2a2a; border-left: 4px solid #d4af37; padding: 15px; margin: 25px 0; border-radius: 0 8px 8px 0; color: #e0e0e0;">
+        <h3 style="margin-top: 0;">What's Your Theory?</h3>
+        <p style="margin-bottom: 0;">Is the scientific airburst theory sufficient to explain the event, or do the strange atmospheric effects and lack of fragments suggest something more exotic? Let us know your thoughts.</p>
+      </div>
+
+      <p>Here is one final, strange fact: In 2020, scientists studying microscopic rock samples from the Tunguska region found that their composition doesn't perfectly match known meteorites, asteroids, or comets. While this doesn't disprove the airburst theory, it does mean that the object that caused the explosion may have been of a type we have not yet encountered.</p>
     `,
     imageId: 'post-10',
     featured: false,
@@ -339,7 +415,7 @@ const getImageForArticle = (article: Article) => {
   return {
     imageUrl: image?.imageUrl ?? "https://picsum.photos/seed/placeholder/600/400",
     imageHint: image?.imageHint ?? "placeholder",
-    imageDescription: image?.description ?? "placeholder image"
+    description: image?.description ?? "placeholder image"
   }
 }
 
